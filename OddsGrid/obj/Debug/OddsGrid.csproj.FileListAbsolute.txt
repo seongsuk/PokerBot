@@ -1,0 +1,6 @@
+C:\Users\seongsu\Desktop\PokerHandEvalSrc\PokerHandEvalSrc\bin\Debug\OddsGrid.dll
+C:\Users\seongsu\Desktop\PokerHandEvalSrc\PokerHandEvalSrc\bin\Debug\OddsGrid.pdb
+C:\Users\seongsu\Desktop\PokerHandEvalSrc\PokerHandEvalSrc\OddsGrid\obj\Debug\OddsGrid.OddsGrid.resources
+C:\Users\seongsu\Desktop\PokerHandEvalSrc\PokerHandEvalSrc\OddsGrid\obj\Debug\OddsGrid.csproj.GenerateResource.Cache
+C:\Users\seongsu\Desktop\PokerHandEvalSrc\PokerHandEvalSrc\OddsGrid\obj\Debug\OddsGrid.dll
+C:\Users\seongsu\Desktop\PokerHandEvalSrc\PokerHandEvalSrc\OddsGrid\obj\Debug\OddsGrid.pdb

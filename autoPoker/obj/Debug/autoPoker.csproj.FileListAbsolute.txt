@@ -1,0 +1,18 @@
+c:\users\seongsu\documents\visual studio 2015\Projects\autoPoker\autoPoker\bin\Debug\autoPoker.exe.config
+c:\users\seongsu\documents\visual studio 2015\Projects\autoPoker\autoPoker\bin\Debug\autoPoker.exe
+c:\users\seongsu\documents\visual studio 2015\Projects\autoPoker\autoPoker\bin\Debug\autoPoker.pdb
+c:\users\seongsu\documents\visual studio 2015\Projects\autoPoker\autoPoker\obj\Debug\autoPoker.csprojResolveAssemblyReference.cache
+c:\users\seongsu\documents\visual studio 2015\Projects\autoPoker\autoPoker\obj\Debug\autoPoker.Form1.resources
+c:\users\seongsu\documents\visual studio 2015\Projects\autoPoker\autoPoker\obj\Debug\autoPoker.Properties.Resources.resources
+c:\users\seongsu\documents\visual studio 2015\Projects\autoPoker\autoPoker\obj\Debug\autoPoker.csproj.GenerateResource.Cache
+c:\users\seongsu\documents\visual studio 2015\Projects\autoPoker\autoPoker\obj\Debug\autoPoker.exe
+c:\users\seongsu\documents\visual studio 2015\Projects\autoPoker\autoPoker\obj\Debug\autoPoker.pdb
+C:\Users\2\Desktop\CSE 442\포커150911\autoPoker\bin\Debug\autoPoker.exe.config
+C:\Users\2\Desktop\CSE 442\포커150911\autoPoker\obj\Debug\autoPoker.exe
+C:\Users\2\Desktop\CSE 442\포커150911\autoPoker\obj\Debug\autoPoker.pdb
+C:\Users\2\Desktop\CSE 442\포커150911\autoPoker\bin\Debug\autoPoker.exe
+C:\Users\2\Desktop\CSE 442\포커150911\autoPoker\bin\Debug\autoPoker.pdb
+C:\Users\2\Desktop\CSE 442\포커150911\autoPoker\obj\Debug\autoPoker.csprojResolveAssemblyReference.cache
+C:\Users\2\Desktop\CSE 442\포커150911\autoPoker\obj\Debug\autoPoker.Form1.resources
+C:\Users\2\Desktop\CSE 442\포커150911\autoPoker\obj\Debug\autoPoker.Properties.Resources.resources
+C:\Users\2\Desktop\CSE 442\포커150911\autoPoker\obj\Debug\autoPoker.csproj.GenerateResource.Cache
