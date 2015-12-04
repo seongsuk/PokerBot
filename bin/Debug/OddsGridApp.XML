@@ -1,0 +1,292 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>OddsGridApp</name>
+    </assembly>
+    <members>
+        <member name="T:OddsGridApp.Form1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:OddsGridApp.Form1.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:OddsGridApp.Form1.PocketCards_TextChanged(System.Object,System.EventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:OddsGridApp.Form1.Board_TextChanged(System.Object,System.EventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:OddsGridApp.Form1.Form1_Load(System.Object,System.EventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:OddsGridApp.Form1.mouseClick(System.Int32,System.Int32)">
+            <summary>
+            Simulates a mouse click
+            </summary>
+        </member>
+        <member name="F:OddsGridApp.Form1.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:OddsGridApp.Form1.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:OddsGridApp.Form1.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:OddsGridApp.Program.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+        <member name="T:OddsGridApp.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:OddsGridApp.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:OddsGridApp.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:OddsGridApp.Properties.Resources.B0">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:OddsGridApp.Properties.Resources.B2">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:OddsGridApp.Properties.Resources.B3">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:OddsGridApp.Properties.Resources.B4">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:OddsGridApp.Properties.Resources.B5">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:OddsGridApp.Properties.Resources.B6">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:OddsGridApp.Properties.Resources.B7">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:OddsGridApp.Properties.Resources.B8">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:OddsGridApp.Properties.Resources.B9">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:OddsGridApp.Properties.Resources.BA">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:OddsGridApp.Properties.Resources.BJ">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:OddsGridApp.Properties.Resources.BK">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:OddsGridApp.Properties.Resources.BQ">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:OddsGridApp.Properties.Resources.C">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:OddsGridApp.Properties.Resources.D">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:OddsGridApp.Properties.Resources.H">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:OddsGridApp.Properties.Resources.logo">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:OddsGridApp.Properties.Resources.logo1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:OddsGridApp.Properties.Resources.R0">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:OddsGridApp.Properties.Resources.R2">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:OddsGridApp.Properties.Resources.R3">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:OddsGridApp.Properties.Resources.R4">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:OddsGridApp.Properties.Resources.R5">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:OddsGridApp.Properties.Resources.R6">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:OddsGridApp.Properties.Resources.R7">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:OddsGridApp.Properties.Resources.R8">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:OddsGridApp.Properties.Resources.R9">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:OddsGridApp.Properties.Resources.RA">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:OddsGridApp.Properties.Resources.RJ">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:OddsGridApp.Properties.Resources.RK">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:OddsGridApp.Properties.Resources.RQ">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:OddsGridApp.Properties.Resources.S">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:D3_Bot_Tool.LockedFastImage.Item(System.Int32,System.Int32)">
+            <summary>
+            Returns or sets a pixel of the image. 
+            </summary>
+            <param name="x">x parameter of the pixel</param>
+            <param name="y">y parameter of the pixel</param>
+        </member>
+        <member name="P:D3_Bot_Tool.LockedFastImage.Width">
+            <summary>
+            Width of the image. 
+            </summary>
+        </member>
+        <member name="P:D3_Bot_Tool.LockedFastImage.Height">
+            <summary>
+            Height of the image. 
+            </summary>
+        </member>
+        <member name="M:D3_Bot_Tool.LockedFastImage.asBitmap">
+            <summary>
+            Returns the modified Bitmap. 
+            </summary>
+        </member>
+        <member name="F:D3_Bot_Tool.ImageChecker.time_needed">
+            <summary>
+            The time needed for last operation.
+            </summary>
+        </member>
+        <member name="F:D3_Bot_Tool.ImageChecker.CHECKFAILED">
+            <summary>
+            Error return value.
+            </summary>
+        </member>
+        <member name="M:D3_Bot_Tool.ImageChecker.#ctor(System.Drawing.Bitmap,System.Drawing.Bitmap)">
+            <summary>
+            Constructor of the ImageChecker
+            </summary>
+            <param name="big_image">The image containing the small image.</param>
+            <param name="small_image">The image located in the big image.</param>
+        </member>
+        <member name="M:D3_Bot_Tool.ImageChecker.bigContainsSmall(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Returns the location of the small image in the big image. Returns CHECKFAILED if not found.
+            </summary>
+            <param name="x_speedUp">speeding up at x achsis.</param>
+            <param name="y_speedUp">speeding up at y achsis.</param>
+            <param name="begin_percent_x">Reduces the search rect. 0 - 100</param>
+            <param name="end_percent_x">Reduces the search rect. 0 - 100</param>
+            <param name="begin_percent_x">Reduces the search rect. 0 - 100</param>
+            <param name="end_percent_y">Reduces the search rect. 0 - 100</param>
+        </member>
+    </members>
+</doc>

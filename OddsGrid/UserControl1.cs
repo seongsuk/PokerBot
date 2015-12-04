@@ -18,7 +18,13 @@ namespace OddsGrid
     {
         private string pocket = "";
         private string board = "";
+        private double playerwins = 0.0;
 
+        public double PlayerWins
+        {
+            get { return playerwins; }
+            
+        }
         /// <summary>
         /// 
         /// </summary>
@@ -62,7 +68,7 @@ namespace OddsGrid
             if (!this.DesignMode)
             {
                 int count = 0;
-                double playerwins = 0.0;
+                playerwins = 0.0;
                 double opponentwins = 0.0;
                 double[] player = new double[9];
                 double[] opponent = new double[9];

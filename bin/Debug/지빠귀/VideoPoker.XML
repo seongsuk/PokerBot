@@ -1,0 +1,321 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>VideoPoker</name>
+    </assembly>
+    <members>
+        <member name="T:VideoPoker.Form1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:VideoPoker.Form1.amount">
+            <summary>
+            Stores current amount of players coins.
+            </summary>
+        </member>
+        <member name="F:VideoPoker.Form1.bet">
+            <summary>
+            Stores current bet amount.
+            </summary>
+        </member>
+        <member name="F:VideoPoker.Form1.win">
+            <summary>
+            Amount of current win
+            </summary>
+        </member>
+        <member name="F:VideoPoker.Form1.bestev">
+            <summary>
+            Contains Expected Value for the best hold settings
+            </summary>
+        </member>
+        <member name="F:VideoPoker.Form1.bestmask">
+            <summary>
+            Contains Best mask
+            </summary>
+        </member>
+        <member name="F:VideoPoker.Form1.ev">
+            <summary>
+            Contains Expected Value for the current hold settings
+            </summary>
+        </member>
+        <member name="F:VideoPoker.Form1.hold">
+            <summary>
+            Contains the hold values for the current hand.
+            </summary>
+        </member>
+        <member name="F:VideoPoker.Form1.deck">
+            <summary>
+            Holds Shuffled Deck
+            </summary>
+        </member>
+        <member name="F:VideoPoker.Form1.nextcard">
+            <summary>
+            Index to the next available card in the deck.
+            </summary>
+        </member>
+        <member name="F:VideoPoker.Form1.hand">
+            <summary>
+            Contains cards in the current hand.
+            </summary>
+        </member>
+        <member name="F:VideoPoker.Form1.rand">
+            <summary>
+            Random instance used to shuffle cards.
+            </summary>
+        </member>
+        <member name="T:VideoPoker.Form1.State">
+            <summary>
+            Current UI state.
+            </summary>
+        </member>
+        <member name="F:VideoPoker.Form1.State.Start">
+            <summary>
+            Ready for new hand
+            </summary>
+        </member>
+        <member name="F:VideoPoker.Form1.State.SetHold">
+            <summary>
+            Allow user to toggle hold values on cards
+            </summary>
+        </member>
+        <member name="F:VideoPoker.Form1.currentState">
+            <summary>
+            Start ready for a new hand
+            </summary>
+        </member>
+        <member name="P:VideoPoker.Form1.BetValue">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:VideoPoker.Form1.ShuffleDeck">
+            <summary>
+            Shuffle the deck of cards.
+            </summary>
+        </member>
+        <member name="P:VideoPoker.Form1.NextCard">
+            <summary>
+            Get next available card from the Deck
+            </summary>
+        </member>
+        <member name="P:VideoPoker.Form1.CurrentState">
+            <summary>
+            Returns current state (either Start, or SetHold)
+            </summary>
+        </member>
+        <member name="M:VideoPoker.Form1.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:VideoPoker.Form1.Form1_Load(System.Object,System.EventArgs)">
+            <summary>
+            Initializer for the form
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:VideoPoker.Form1.UpdateLabels">
+            <summary>
+            Move contents of values onto the labels
+            </summary>
+        </member>
+        <member name="M:VideoPoker.Form1.Description(System.UInt32)">
+            <summary>
+            Convert hand ranking to a descriptive string.
+            </summary>
+            <param name="handval">hand value</param>
+            <returns>descriptive string</returns>
+        </member>
+        <member name="M:VideoPoker.Form1.CalcWinnings(System.UInt32,System.Int32)">
+            <summary>
+            Calculates winnings given the passed hand value and number of coins.
+            This function handles the payoff rules for an 8/6 version of Jacks or better.
+            This is the function to change if you want the trainer to handle a different
+            video poker game.
+            </summary>
+            <param name="handval">Hand value</param>
+            <param name="coins">Coins bet</param>
+            <returns>winnings</returns>
+        </member>
+        <member name="M:VideoPoker.Form1.UpdateHold">
+            <summary>
+            Recalculates the expected value when the hold card defintion changes.
+            </summary>
+        </member>
+        <member name="M:VideoPoker.Form1.CardValue(System.Int32)">
+            <summary>
+            Get the current card values from the UI
+            </summary>
+            <param name="index">index of card in hand</param>
+            <returns>card value</returns>
+        </member>
+        <member name="M:VideoPoker.Form1.SetCardValue(System.Int32,System.Int32)">
+            <summary>
+            Sets the UI's card value
+            </summary>
+            <param name="index">Index of card to change</param>
+            <param name="v">value of the new card</param>
+        </member>
+        <member name="M:VideoPoker.Form1.ExpectedValue(System.UInt32)">
+            <summary>
+            Given a hold mask, return the expected value for the current hand.
+            </summary>
+            <param name="holdmask">mask of the cards to hold</param>
+            <returns>expected value</returns>
+        </member>
+        <member name="M:VideoPoker.Form1.AutomaticHoldset">
+            <summary>
+            Determines the best hold settings for the current hand.
+            </summary>
+        </member>
+        <member name="M:VideoPoker.Form1.FillUnHeldCards">
+            <summary>
+            Fill cards that aren't held with the next available cards in the Deck.
+            </summary>
+        </member>
+        <member name="M:VideoPoker.Form1.CalculateWinnings">
+            <summary>
+            We've drawn our cards, what's it worth?
+            </summary>
+        </member>
+        <member name="M:VideoPoker.Form1.CardBacks">
+            <summary>
+            Display card backs
+            </summary>
+        </member>
+        <member name="M:VideoPoker.Form1.Hold1_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handle Hold Button Click for card 1
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:VideoPoker.Form1.Hold2_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handle Hold Button Click for card 2
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:VideoPoker.Form1.Hold3_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handle Hold Button Click for card 3
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:VideoPoker.Form1.Hold4_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handle Hold Button Click for card 4
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:VideoPoker.Form1.Hold5_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handle Hold Button Click for card 5
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:VideoPoker.Form1.Bet1_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handle Bet 1 button.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:VideoPoker.Form1.BetMax_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handle Max Bet Button
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:VideoPoker.Form1.Deal_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handle deal button
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:VideoPoker.Form1.ToggleHold(System.Int32)">
+            <summary>
+            Toggle hold state for the specified card.
+            </summary>
+            <param name="index"></param>
+        </member>
+        <member name="M:VideoPoker.Form1.Card1_CardClick">
+            <summary>
+            Handle Click or Double Click for a card 1 by toggling the hold state.
+            </summary>
+        </member>
+        <member name="M:VideoPoker.Form1.Card2_CardClick">
+            <summary>
+            Handle Click or Double Click for a card 2 by toggling the hold state.
+            </summary>
+        </member>
+        <member name="M:VideoPoker.Form1.Card3_CardClick">
+            <summary>
+            Handle Click or Double Click for a card 3 by toggling the hold state.
+            </summary>
+        </member>
+        <member name="M:VideoPoker.Form1.Card4_CardClick">
+            <summary>
+            Handle Click or Double Click for a card 4 by toggling the hold state.
+            </summary>
+        </member>
+        <member name="M:VideoPoker.Form1.Card5_CardClick">
+            <summary>
+            Handle Click or Double Click for a card 5 by toggling the hold state.
+            </summary>
+        </member>
+        <member name="M:VideoPoker.Form1.BestHold_Click(System.Object,System.EventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:VideoPoker.Form1.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:VideoPoker.Form1.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:VideoPoker.Form1.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:VideoPoker.Program.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+        <member name="T:VideoPoker.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:VideoPoker.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:VideoPoker.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+    </members>
+</doc>

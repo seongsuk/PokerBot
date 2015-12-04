@@ -1,0 +1,9 @@
+C:\Users\seongsu\Desktop\PokerHandEvalSrc\PokerHandEvalSrc\bin\Debug\HandOdds.XML
+C:\Users\seongsu\Desktop\PokerHandEvalSrc\PokerHandEvalSrc\bin\Debug\HandOdds.exe
+C:\Users\seongsu\Desktop\PokerHandEvalSrc\PokerHandEvalSrc\bin\Debug\HandOdds.pdb
+C:\Users\seongsu\Desktop\PokerHandEvalSrc\PokerHandEvalSrc\HandOdds\obj\Debug\HandOdds.csprojResolveAssemblyReference.cache
+C:\Users\seongsu\Desktop\PokerHandEvalSrc\PokerHandEvalSrc\HandOdds\obj\Debug\HandOdds.Form1.resources
+C:\Users\seongsu\Desktop\PokerHandEvalSrc\PokerHandEvalSrc\HandOdds\obj\Debug\HandOdds.Properties.Resources.resources
+C:\Users\seongsu\Desktop\PokerHandEvalSrc\PokerHandEvalSrc\HandOdds\obj\Debug\HandOdds.csproj.GenerateResource.Cache
+C:\Users\seongsu\Desktop\PokerHandEvalSrc\PokerHandEvalSrc\HandOdds\obj\Debug\HandOdds.exe
+C:\Users\seongsu\Desktop\PokerHandEvalSrc\PokerHandEvalSrc\HandOdds\obj\Debug\HandOdds.pdb

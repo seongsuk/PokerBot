@@ -1,0 +1,9 @@
+C:\Users\seongsu\Desktop\PokerHandEvalSrc\PokerHandEvalSrc\bin\Debug\VideoPoker.XML
+C:\Users\seongsu\Desktop\PokerHandEvalSrc\PokerHandEvalSrc\bin\Debug\VideoPoker.exe
+C:\Users\seongsu\Desktop\PokerHandEvalSrc\PokerHandEvalSrc\bin\Debug\VideoPoker.pdb
+C:\Users\seongsu\Desktop\PokerHandEvalSrc\PokerHandEvalSrc\VideoPoker\obj\Debug\VideoPoker.csprojResolveAssemblyReference.cache
+C:\Users\seongsu\Desktop\PokerHandEvalSrc\PokerHandEvalSrc\VideoPoker\obj\Debug\VideoPoker.Form1.resources
+C:\Users\seongsu\Desktop\PokerHandEvalSrc\PokerHandEvalSrc\VideoPoker\obj\Debug\VideoPoker.Properties.Resources.resources
+C:\Users\seongsu\Desktop\PokerHandEvalSrc\PokerHandEvalSrc\VideoPoker\obj\Debug\VideoPoker.csproj.GenerateResource.Cache
+C:\Users\seongsu\Desktop\PokerHandEvalSrc\PokerHandEvalSrc\VideoPoker\obj\Debug\VideoPoker.exe
+C:\Users\seongsu\Desktop\PokerHandEvalSrc\PokerHandEvalSrc\VideoPoker\obj\Debug\VideoPoker.pdb

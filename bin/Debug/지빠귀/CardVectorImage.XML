@@ -1,0 +1,3546 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CardVectorImage</name>
+    </assembly>
+    <members>
+        <member name="T:SVGCards.RegionEx">
+            <exclude/>
+        </member>
+        <member name="T:SVGCards.RegionEx.RECT">
+            <exclude/>
+        </member>
+        <member name="F:SVGCards.RegionEx.RECT.Left">
+            <exclude/>
+        </member>
+        <member name="F:SVGCards.RegionEx.RECT.Top">
+            <exclude/>
+        </member>
+        <member name="F:SVGCards.RegionEx.RECT.Right">
+            <exclude/>
+        </member>
+        <member name="F:SVGCards.RegionEx.RECT.Bottom">
+            <exclude/>
+        </member>
+        <member name="T:SVGCards.RegionEx.POINT">
+            <exclude/>
+        </member>
+        <member name="F:SVGCards.RegionEx.POINT.x">
+            <exclude/>
+        </member>
+        <member name="F:SVGCards.RegionEx.POINT.y">
+            <exclude/>
+        </member>
+        <member name="T:SVGCards.RegionEx.RGNDATAHEADER">
+            <exclude/>
+        </member>
+        <member name="F:SVGCards.RegionEx.RGNDATAHEADER.dwSize">
+            <exclude/>
+        </member>
+        <member name="F:SVGCards.RegionEx.RGNDATAHEADER.iType">
+            <exclude/>
+        </member>
+        <member name="F:SVGCards.RegionEx.RGNDATAHEADER.nCount">
+            <exclude/>
+        </member>
+        <member name="F:SVGCards.RegionEx.RGNDATAHEADER.nRgnSize">
+            <exclude/>
+        </member>
+        <member name="F:SVGCards.RegionEx.RGNDATAHEADER.rcBound">
+            <exclude/>
+        </member>
+        <member name="T:SVGCards.RegionEx.RGNDATA">
+            <exclude/>
+        </member>
+        <member name="F:SVGCards.RegionEx.RGNDATA.rdh">
+            <exclude/>
+        </member>
+        <member name="F:SVGCards.RegionEx.RGNDATA.Buffer">
+            <exclude/>
+        </member>
+        <member name="T:SVGCards.RegionEx.XFORM">
+            <exclude/>
+        </member>
+        <member name="F:SVGCards.RegionEx.XFORM.eM11">
+            <exclude/>
+        </member>
+        <member name="F:SVGCards.RegionEx.XFORM.eM12">
+            <exclude/>
+        </member>
+        <member name="F:SVGCards.RegionEx.XFORM.eM21">
+            <exclude/>
+        </member>
+        <member name="F:SVGCards.RegionEx.XFORM.eM22">
+            <exclude/>
+        </member>
+        <member name="F:SVGCards.RegionEx.XFORM.eDx">
+            <exclude/>
+        </member>
+        <member name="F:SVGCards.RegionEx.XFORM.eDy">
+            <exclude/>
+        </member>
+        <member name="F:SVGCards.RegionEx.ALTERNATE">
+            <exclude/>
+        </member>
+        <member name="F:SVGCards.RegionEx.WINDING">
+            <exclude/>
+        </member>
+        <member name="F:SVGCards.RegionEx.NULLREGION">
+            <exclude/>
+        </member>
+        <member name="F:SVGCards.RegionEx.RGN_AND">
+            <exclude/>
+        </member>
+        <member name="F:SVGCards.RegionEx.RGN_COPY">
+            <exclude/>
+        </member>
+        <member name="F:SVGCards.RegionEx.RGN_DIFF">
+            <exclude/>
+        </member>
+        <member name="F:SVGCards.RegionEx.RGN_MAX">
+            <exclude/>
+        </member>
+        <member name="F:SVGCards.RegionEx.RGN_MIN">
+            <exclude/>
+        </member>
+        <member name="F:SVGCards.RegionEx.RGN_OR">
+            <exclude/>
+        </member>
+        <member name="F:SVGCards.RegionEx.RGN_XOR">
+            <exclude/>
+        </member>
+        <member name="M:SVGCards.RegionEx.CombineRgn(System.IntPtr,System.IntPtr,System.IntPtr,System.Int32)">
+            <exclude/>
+        </member>
+        <member name="M:SVGCards.RegionEx.DeleteObject(System.IntPtr)">
+            <exclude/>
+        </member>
+        <member name="M:SVGCards.RegionEx.GetRegionData(System.IntPtr,System.Int32,System.Int32[])">
+            <exclude/>
+        </member>
+        <member name="M:SVGCards.RegionEx.CreatePolyPolygonRgn(SVGCards.RegionEx.POINT@,System.Int32@,System.Int32,System.Int32)">
+            <exclude/>
+        </member>
+        <member name="M:SVGCards.RegionEx.ExtCreateRegion(System.Int32[],System.Int32,System.Int32[])">
+            <exclude/>
+        </member>
+        <member name="M:SVGCards.RegionEx.PtInRegion(System.IntPtr,System.Int32,System.Int32)">
+            <exclude/>
+        </member>
+        <member name="F:SVGCards.RegionEx.hRgn">
+            <exclude/>
+        </member>
+        <member name="F:SVGCards.RegionEx.scandata">
+            <exclude/>
+        </member>
+        <member name="M:SVGCards.RegionEx.#ctor">
+            <exclude/>
+        </member>
+        <member name="M:SVGCards.RegionEx.#ctor(System.Drawing.Drawing2D.GraphicsPath)">
+            <exclude/>
+        </member>
+        <member name="M:SVGCards.RegionEx.Dispose">
+            <exclude/>
+        </member>
+        <member name="M:SVGCards.RegionEx.Dispose(System.Boolean)">
+            <exclude/>
+        </member>
+        <member name="M:SVGCards.RegionEx.Finalize">
+            <exclude/>
+        </member>
+        <member name="M:SVGCards.RegionEx.Contains(System.Int32,System.Int32)">
+            <exclude/>
+        </member>
+        <member name="M:SVGCards.RegionEx.DeleteRegion">
+            <exclude/>
+        </member>
+        <member name="M:SVGCards.RegionEx.MakeEmpty">
+            <exclude/>
+        </member>
+        <member name="M:SVGCards.RegionEx.CreateRegion(System.Drawing.Drawing2D.GraphicsPath)">
+            <exclude/>
+        </member>
+        <member name="M:SVGCards.RegionEx.Union(SVGCards.RegionEx)">
+            <exclude/>
+        </member>
+        <member name="M:SVGCards.RegionEx.GetScanRegions">
+            <exclude/>
+        </member>
+        <member name="M:SVGCards.RegionEx.Region">
+            <exclude/>
+        </member>
+        <member name="T:SVGCards.IAIGraphicObject">
+            <summary>
+            This class defines the common interface that all generated classes implement
+            </summary>
+        </member>
+        <member name="P:SVGCards.IAIGraphicObject.SmoothingMode">
+            <summary>
+            Gets or sets the smoothing mode of the layer
+            </summary>
+        </member>
+        <member name="P:SVGCards.IAIGraphicObject.TextRenderingHint">
+            <summary>
+            Gets or sets the TextRenderingHint for the layer
+            </summary>
+        </member>
+        <member name="P:SVGCards.IAIGraphicObject.IsVisible">
+            <summary>
+            Gets or sets the IsVisible flag which determines if the layer, and its sublayers, will be painted or not
+            </summary>
+        </member>
+        <member name="M:SVGCards.IAIGraphicObject.Transform">
+            <summary>
+            Returns the total transformation applied when painted (ignoring any graphic surface transformations)
+            </summary>
+        </member>
+        <member name="M:SVGCards.IAIGraphicObject.Transform(System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Returns the total transformation matrix applied when painted transformed by the Matrix m
+            </summary>
+            <param name="m">The matrix to transform the return value by</param>
+        </member>
+        <member name="M:SVGCards.IAIGraphicObject.SetRelativeTransform(System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Sets the transform of the individual layer relative to its parent layers
+            </summary>
+            <param name="m">The matrix to set the transform to</param>
+        </member>
+        <member name="M:SVGCards.IAIGraphicObject.RelativeTransform">
+            <summary>
+            Returns the transform of the individual layer
+            </summary>
+        </member>
+        <member name="M:SVGCards.IAIGraphicObject.ResetTransforms">
+            <summary>
+            Resets the transform for this layer and the transforms of its children
+            </summary>
+        </member>
+        <member name="M:SVGCards.IAIGraphicObject.StandardTransform(System.Drawing.RectangleF)">
+            <summary>
+            Calculates the matrix to transform a drawing to a given rectangle.
+            </summary>
+        </member>
+        <member name="M:SVGCards.IAIGraphicObject.Path">
+            <summary>
+            Returns the path for the layer
+            </summary>
+        </member>
+        <member name="M:SVGCards.IAIGraphicObject.Path(System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Returns the path transformed by the Matrix m
+            </summary>
+            <param name="m">The matrix to transform the return value by</param>
+        </member>
+        <member name="M:SVGCards.IAIGraphicObject.Region">
+            <summary>
+            Gets the region for the layer
+            </summary>
+        </member>
+        <member name="M:SVGCards.IAIGraphicObject.Region(System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Returns the region for the layer transformed by the Matrix m
+            </summary>
+            <param name="m">The matrix to transform the return value by</param>
+        </member>
+        <member name="M:SVGCards.IAIGraphicObject.BoundingBox">
+            <summary>
+            Gets the bounding box for the layer
+            </summary>
+        </member>
+        <member name="M:SVGCards.IAIGraphicObject.BoundingBox(System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Returns the bounding box for the layer transformed by the Matrix m
+            </summary>
+            <param name="m">The matrix to transform the return value by</param>
+        </member>
+        <member name="M:SVGCards.IAIGraphicObject.Center">
+            <summary>
+            Gets the center point for the layer
+            </summary>
+        </member>
+        <member name="M:SVGCards.IAIGraphicObject.Center(System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Returns the Center point for the layer transformed by the Matrix m
+            </summary>
+            <param name="m">The matrix to transform the return value by</param>
+        </member>
+        <member name="M:SVGCards.IAIGraphicObject.Paint(System.Drawing.Graphics)">
+            <summary>
+            Paints the layer to the given graphics surface
+            </summary>
+            <param name="g">The graphics surface to paint to</param>
+        </member>
+        <member name="M:SVGCards.IAIGraphicObject.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Paints the layer and any children after translating by matrix t
+            </summary>
+            <param name="g">The graphics surface to paint to</param>
+            <param name="t">Transforms the graphic objects from Adobe coordinate space to application coordinate space</param>
+        </member>
+        <member name="M:SVGCards.IAIGraphicObject.Paint(System.Drawing.Graphics,System.Drawing.RectangleF)">
+            <summary>
+            Paints the layer if IsVisible is true
+            </summary>
+            <param name="g">The graphics surface to paint to</param>
+            <param name="bounds">The rectangle in which to draw</param>
+        </member>
+        <member name="M:SVGCards.IAIGraphicObject.Paint(System.Drawing.Graphics,System.Drawing.RectangleF,System.Single)">
+            <summary>
+            Paints the layer within a given boundingbox with the given quality if IsVisible is true
+            </summary>
+            <param name="g">The graphics surface to paint to</param>
+            <param name="bounds">The rectangle in which to draw</param>
+            <param name="quality">The quality with which to paint</param>
+        </member>
+        <member name="M:SVGCards.IAIGraphicObject.Paint(System.Drawing.Graphics,System.Drawing.RectangleF,System.Single,System.Drawing.Drawing2D.Matrix@)">
+            <summary>
+            Paints the layer within a given boundingbox and with a specified quality if IsVisible is true
+            </summary>
+            <param name="g">The graphics surface to paint to</param>
+            <param name="bounds">The rectangle in which to draw</param>
+            <param name="quality">The quality with which to paint</param>
+            <param name="m">Returns the matrix used to translate the image to the bounding rectangle</param>
+        </member>
+        <member name="M:SVGCards.IAIGraphicObject.Paint(System.Drawing.Graphics,System.Drawing.RectangleF,System.Single,System.Drawing.Drawing2D.Matrix@,System.Drawing.Imaging.ImageAttributes)">
+            <summary>
+            Paints the layer within a given boundingbox and with a specified quality and imageAttribute if IsVisible is true
+            </summary>
+            <param name="g">The graphics surface to paint to</param>
+            <param name="bounds">The rectangle in which to draw</param>
+            <param name="quality">The quality with which to paint</param>
+            <param name="m">Returns the matrix used to translate the image to the bounding rectangle</param>
+            <param name="imageAttribute">The attribute to be applied to the image drawn</param>
+        </member>
+        <member name="M:SVGCards.IAIGraphicObject.PaintGray(System.Drawing.Graphics)">
+            <summary>
+            Paints the layer to the given graphics surface in GrayScale
+            </summary>
+            <param name="g">The graphics surface to paint to</param>
+        </member>
+        <member name="M:SVGCards.IAIGraphicObject.PaintGray(System.Drawing.Graphics,System.Single)">
+            <summary>
+            Paints the layer in grayscale with the given opacity
+            </summary>
+            <param name="g">The graphics surface to paint to</param>
+            <param name="opacity">The opacity level with which to paint</param>
+        </member>
+        <member name="M:SVGCards.IAIGraphicObject.PaintGray(System.Drawing.Graphics,System.Drawing.RectangleF,System.Single)">
+            <summary>
+            Paints the layer in Grayscale within the given boundingbox with the given opacity if IsVisible is true
+            </summary>
+            <param name="g">The graphics surface to paint to</param>
+            <param name="bounds">The rectangle in which to draw</param>
+            <param name="opacity">The opacity level with which to paint</param>
+        </member>
+        <member name="M:SVGCards.IAIGraphicObject.PaintGray(System.Drawing.Graphics,System.Drawing.RectangleF,System.Single,System.Single)">
+            <summary>
+            Paints the layer in GrayScale within a given boundingbox with the given quality if IsVisible is true
+            </summary>
+            <param name="g">The graphics surface to paint to</param>
+            <param name="bounds">The rectangle in which to draw</param>
+            <param name="quality">The quality with which to paint</param>
+            <param name="opacity">The opacity level with which to paint</param>
+        </member>
+        <member name="M:SVGCards.IAIGraphicObject.PaintGray(System.Drawing.Graphics,System.Drawing.RectangleF,System.Single,System.Drawing.Drawing2D.Matrix@,System.Single)">
+            <summary>
+            Paints the layer in GrayScale within a given boundingbox and with a specified quality if IsVisible is true
+            </summary>
+            <param name="g">The graphics surface to paint to</param>
+            <param name="bounds">The rectangle in which to draw</param>
+            <param name="quality">The quality with which to paint</param>
+            <param name="m">Returns the matrix used to translate the image to the bounding rectangle</param>
+            <param name="opacity">The opacity level with which to paint</param>
+        </member>
+        <member name="P:SVGCards.IAIGraphicObject.Name">
+            <summary>
+            Gets the name of the class
+            </summary>
+        </member>
+        <member name="P:SVGCards.IAIGraphicObject.Children">
+            <summary>
+            Gets an array containing the child classes of this layer
+            </summary>
+        </member>
+        <member name="M:SVGCards.IAIGraphicObject.FindChild(System.String)">
+            <summary>
+            Returns a pointer to a child class with the specified name if it exists 
+            </summary>
+            <param name="name">The name of the child class to return (case insensitive)</param>
+        </member>
+        <member name="P:SVGCards.IAIGraphicObject.Parent">
+            <summary>
+            Returns a pointer to the parent (the object that calls this object during a paint routine) 
+            </summary>
+        </member>
+        <member name="T:SVGCards.Common">
+            <summary>
+            This class defines the default behavior for the layer classes
+            </summary>
+        </member>
+        <member name="F:SVGCards.Common.smoothingMode">
+            <summary>
+            Determines the smoothing mode used to draw graphics in the paint function
+            </summary>
+        </member>
+        <member name="F:SVGCards.Common.textRenderingHint">
+            <summary>
+            Determines the smoothing mode used to draw text in the paint function
+            </summary>
+        </member>
+        <member name="F:SVGCards.Common.isVisible">
+            <summary>
+            If set to false the layer, or any of its sublayers, will not be drawn even if the paint function is called.
+            Subclasses can still be called explicitly and will be drawn if they are visible.
+            </summary>
+        </member>
+        <member name="F:SVGCards.Common.transform">
+            <summary>
+            This determines the transformation used when the paint function is called. Only effects art drawn by this class.
+            </summary>
+        </member>
+        <member name="F:SVGCards.Common.parent">
+            <summary>
+            This is a pointer to the parent object.
+            </summary>
+        </member>
+        <member name="F:SVGCards.Common.hash">
+            <summary>
+            This is the hash used to store the child class instance references.
+            </summary>
+        </member>
+        <member name="F:SVGCards.Common.pathCache">
+            <summary>
+            Used to cache the path of this layer.
+            </summary>
+        </member>
+        <member name="F:SVGCards.Common.bIncludeInvisibleObjectsInBounds">
+            <summary>
+            Used to enable Bounding Box calculations using invisible objects.
+            </summary>
+        </member>
+        <member name="M:SVGCards.Common.Region">
+            <summary>
+            Gets the region for the layer
+            </summary>
+        </member>
+        <member name="P:SVGCards.Common.IncludeInvisibleObjectsInBounds">
+            <summary>
+            This property allows invisible objects to be included in bounding box 
+            calculation when true. Otherwise, invisible items are not include.
+            </summary>
+        </member>
+        <member name="M:SVGCards.Common.AllBoundingBox">
+            <summary>
+            Returns the bounding box including all invisible items for the layer
+            </summary>
+        </member>
+        <member name="M:SVGCards.Common.AllBoundingBox(System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Returns the bounding box including all invisible items for the layer transformed by the Matrix m
+            </summary>
+            <param name="m">The matrix to transform the return value by</param>
+        </member>
+        <member name="M:SVGCards.Common.Region(System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Returns the region, transformed by matrix m, for the layer
+            </summary>
+        </member>
+        <member name="M:SVGCards.Common.RegionP(System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Returns the layer's region in regionEx form. Used internally only.
+            </summary>
+        </member>
+        <member name="P:SVGCards.Common.SmoothingMode">
+            <summary>
+            Gets or sets the smoothing mode of the layer
+            </summary>
+        </member>
+        <member name="P:SVGCards.Common.TextRenderingHint">
+            <summary>
+            Gets or sets the TextRenderingHint for the layer
+            </summary>
+        </member>
+        <member name="P:SVGCards.Common.Parent">
+            <summary>
+            Gets the parent of this object
+            </summary>
+        </member>
+        <member name="M:SVGCards.Common.BoundingBox">
+            <summary>
+            Returns the bounding box for the layer
+            </summary>
+        </member>
+        <member name="M:SVGCards.Common.BoundingBox(System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Returns the bounding box for the layer transformed by the Matrix m
+            </summary>
+            <param name="m">The matrix to transform the return value by</param>
+        </member>
+        <member name="M:SVGCards.Common.RBoundingBox(System.Drawing.RectangleF@,System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Used internally to calculate the boundingbox at runtime.
+            </summary>
+            <param name="total">The rectangle variable that is accumulating the bounding box during the recursion</param>
+            <param name="m">The transformation matrix being applied, in addition to the local transforms, to the paths before determining their bounding boxes</param>
+        </member>
+        <member name="M:SVGCards.Common.Center">
+            <summary>
+            Gets the center point for the layer
+            </summary>
+        </member>
+        <member name="M:SVGCards.Common.Center(System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Returns the center point, transformed by matrix m, for the layer
+            </summary>
+        </member>
+        <member name="M:SVGCards.Common.FindChild(System.String)">
+            <summary>
+            Returns the a pointer to a child class with the specified name if it exists 
+            </summary>
+        </member>
+        <member name="P:SVGCards.Common.IsVisible">
+            <summary>
+            Gets or sets whether or not the layer will be painted
+            </summary>
+        </member>
+        <member name="M:SVGCards.Common.SetRelativeTransform(System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Sets the transform of the individual layer relative to its parent layers
+            </summary>
+        </member>
+        <member name="M:SVGCards.Common.RelativeTransform">
+            <summary>
+            Returns the transform of the individual layer
+            </summary>
+        </member>
+        <member name="M:SVGCards.Common.ResetTransforms">
+            <summary>
+            Recursively resets the transform of this node and every node underneath it
+            </summary>
+        </member>
+        <member name="M:SVGCards.Common.Transform">
+            <summary>
+            Returns the transformation matrix for the layer
+            </summary>
+        </member>
+        <member name="M:SVGCards.Common.Transform(System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Returns the transform, transformed by matrix m, applied to the object at paint-time for the layer
+            </summary>
+        </member>
+        <member name="M:SVGCards.Common.StandardTransform(System.Drawing.RectangleF)">
+            <summary>
+            Calculates the the transform to transform a drawing to a given rectangle
+            </summary>
+            <param name="client">The rectangle to transform the drawing to/// </param>
+        </member>
+        <member name="M:SVGCards.Common.Path">
+            <summary>
+            Gets the path for the layer
+            </summary>
+        </member>
+        <member name="M:SVGCards.Common.Path(System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Gets the path transformed by matrix m for the layer
+            </summary>
+        </member>
+        <member name="P:SVGCards.Common.Children">
+            <summary>
+            Gets an array containing the child classes of this layer
+            </summary>
+        </member>
+        <member name="M:SVGCards.Common.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Paints the layer if IsVisible is true
+            </summary>
+            <param name="g">The Graphics surface to paint to</param>
+            <param name="t">Transforms the graphic objects from Adobe coordinate space to application coordinate space</param>
+        </member>
+        <member name="M:SVGCards.Common.Paint(System.Drawing.Graphics,System.Drawing.RectangleF,System.Single,System.Drawing.Drawing2D.Matrix@,System.Drawing.Imaging.ImageAttributes)">
+            <summary>
+            Paints the layer within the given rectangle and with a specified quality if IsVisible is true
+            </summary>
+            <param name="g">The Graphics surface to paint to</param>
+            <param name="bounds">The rectangle in which to draw</param>
+            <param name="quality">The quality level with which to paint</param>
+            <param name="m">Filled with the matrix used to translate the image to the bounding rectangle</param>
+            <param name="imageAttribute">The attribute to be applied to the image drawn</param>
+        </member>
+        <member name="M:SVGCards.Common.Paint(System.Drawing.Graphics,System.Drawing.RectangleF,System.Single,System.Drawing.Drawing2D.Matrix@)">
+            <summary>
+            Paints the layer within the given rectangle and with a specified quality if IsVisible is true
+            </summary>
+            <param name="g">The Graphics surface to paint to</param>
+            <param name="bounds">The rectangle in which to draw</param>
+            <param name="quality">The quality level with which to paint</param>
+            <param name="m">Filled with the matrix used to translate the image to the bounding rectangle</param>
+        </member>
+        <member name="M:SVGCards.Common.Paint(System.Drawing.Graphics,System.Drawing.RectangleF,System.Single)">
+            <summary>
+            Paints the layer within the given rectangle and with a specified quality if IsVisible is true
+            </summary>
+            <param name="g">The Graphics surface to paint to</param>
+            <param name="bounds">The rectangle in which to draw</param>
+            <param name="quality">The quality level with which to paint</param>
+        </member>
+        <member name="M:SVGCards.Common.AutomaticQualityAdjustment(System.Drawing.RectangleF)">
+            <summary>
+            Automatically calculates the optimal quality level for art being drawn in the given rectangle bounds
+            </summary>
+            <param name="bounds">The rectangle that the art will be drawn in</param>
+        </member>
+        <member name="M:SVGCards.Common.Paint(System.Drawing.Graphics,System.Drawing.RectangleF)">
+            <summary>
+            Paints the layer within the given rectangle if IsVisible is true
+            </summary>
+            <param name="g">The Graphics surface to paint to</param>
+            <param name="bounds">The rectangle in which to draw</param>
+        </member>
+        <member name="M:SVGCards.Common.Paint(System.Drawing.Graphics)">
+            <summary>
+            Paints the layer if IsVisible is true
+            </summary>
+            <param name="g">The Graphics surface to paint to</param>
+        </member>
+        <member name="M:SVGCards.Common.PaintGray(System.Drawing.Graphics,System.Drawing.RectangleF,System.Single,System.Drawing.Drawing2D.Matrix@,System.Single)">
+            <summary>
+            Paints the layer in gray scale within the given rectangle and with a specified quality if IsVisible is true
+            </summary>
+            <param name="g">The Graphics surface to paint to</param>
+            <param name="bounds">The rectangle in which to draw</param>
+            <param name="quality">The quality level with which to paint</param>
+            <param name="m">Filled with the matrix used to translate the image to the bounding rectangle</param>
+            <param name="opacity">The opacity with which to paint the grayscaled image</param>
+        </member>
+        <member name="M:SVGCards.Common.PaintGray(System.Drawing.Graphics,System.Drawing.RectangleF,System.Single,System.Single)">
+            <summary>
+            Paints the layer in gray scale within the given rectangle and with a specified quality if IsVisible is true
+            </summary>
+            <param name="g">The Graphics surface to paint to</param>
+            <param name="bounds">The rectangle in which to draw</param>
+            <param name="quality">The quality level with which to paint</param>
+            <param name="opacity">The opacity level with which to paint</param>
+        </member>
+        <member name="M:SVGCards.Common.PaintGray(System.Drawing.Graphics,System.Single)">
+            <summary>
+            Paints the layer in gray scale with a specified opacity if IsVisible is true
+            </summary>
+            <param name="g">The Graphics surface to paint to</param>
+            <param name="opacity">The opacity level with which to paint</param>
+        </member>
+        <member name="M:SVGCards.Common.PaintGray(System.Drawing.Graphics,System.Drawing.RectangleF,System.Single)">
+            <summary>
+            Paints the layer in gray scale within the given rectangle and with a specified opacity if IsVisible is true
+            </summary>
+            <param name="g">The Graphics surface to paint to</param>
+            <param name="bounds">The rectangle in which to draw</param>
+            <param name="opacity">The opacity level with which to paint</param>
+        </member>
+        <member name="M:SVGCards.Common.PaintGray(System.Drawing.Graphics,System.Drawing.RectangleF)">
+            <summary>
+             Paints the layer in gray scale within the given rectangle.
+            </summary>
+            <param name="g">he Graphics surface to paint to</param>
+            <param name="bounds">The rectangle in which to draw</param>
+        </member>
+        <member name="M:SVGCards.Common.PaintGray(System.Drawing.Graphics)">
+            <summary>
+            Paints the layer in grayscale if IsVisible is true
+            </summary>
+            <param name="g">The Graphics surface to paint to</param>
+        </member>
+        <member name="T:SVGCards.Deck">
+            <summary>
+            This is the class for the layer named Deck
+            </summary>
+        </member>
+        <member name="F:SVGCards.Deck.Deck_Alt">
+            <summary>
+            A reference to an instance of the class Deck_Alt which represents a sublayer of the layer represented by this class.
+            Its paint function is called from within this classes paint function.
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.#ctor">
+            <summary>
+            Class constructor sets the parent reference to null
+            This object is assigned as the parent
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Paints the layer Deck if IsVisible is true
+            </summary>
+            <param name="g">The Graphics surface to paint to</param>
+            <param name="t">Transforms the graphic objects from Adobe coordinate space to application coordinate space</param>
+            <seealso cref="M:SVGCards.Deck.Deck_AltInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)"/>
+        </member>
+        <member name="P:SVGCards.Deck.Children">
+            <summary>
+            Gets an array containing the child classes of this layer
+            </summary>
+        </member>
+        <member name="P:SVGCards.Deck.Name">
+            <summary>
+            Gets the name of the class
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Transform(System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Returns the transform, transformed by matrix m, applied to the object at paint-time for the layer
+            </summary>
+        </member>
+        <member name="T:SVGCards.Deck.Deck_AltInfo">
+            <summary>
+            This is the class for the layer named Deck_Alt
+            </summary>
+        </member>
+        <member name="F:SVGCards.Deck.Deck_AltInfo.Clubs">
+            <summary>
+            A reference to an instance of the class Clubs which represents a sublayer of the layer represented by this class.
+            Its paint function is called from within this classes paint function.
+            </summary>
+        </member>
+        <member name="F:SVGCards.Deck.Deck_AltInfo.Hearts">
+            <summary>
+            A reference to an instance of the class Hearts which represents a sublayer of the layer represented by this class.
+            Its paint function is called from within this classes paint function.
+            </summary>
+        </member>
+        <member name="F:SVGCards.Deck.Deck_AltInfo.Diamonds">
+            <summary>
+            A reference to an instance of the class Diamonds which represents a sublayer of the layer represented by this class.
+            Its paint function is called from within this classes paint function.
+            </summary>
+        </member>
+        <member name="F:SVGCards.Deck.Deck_AltInfo.Spades">
+            <summary>
+            A reference to an instance of the class Spades which represents a sublayer of the layer represented by this class.
+            Its paint function is called from within this classes paint function.
+            </summary>
+        </member>
+        <member name="F:SVGCards.Deck.Deck_AltInfo.Backs">
+            <summary>
+            A reference to an instance of the class Backs which represents a sublayer of the layer represented by this class.
+            Its paint function is called from within this classes paint function.
+            </summary>
+        </member>
+        <member name="F:SVGCards.Deck.Deck_AltInfo.Joker">
+            <summary>
+            A reference to an instance of the class Joker which represents a sublayer of the layer represented by this class.
+            Its paint function is called from within this classes paint function.
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.#ctor(SVGCards.IAIGraphicObject)">
+            <summary>
+            Class constructor takes an object implementing the IAIGraphicObject interface
+            This object is assigned as the parent
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Paints the layer Deck_Alt if IsVisible is true
+            </summary>
+            <param name="g">The Graphics surface to paint to</param>
+            <param name="t">Transforms the graphic objects from Adobe coordinate space to application coordinate space</param>
+            <seealso cref="M:SVGCards.Deck.Deck_AltInfo.ClubsInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)"/>
+            <seealso cref="M:SVGCards.Deck.Deck_AltInfo.HeartsInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)"/>
+            <seealso cref="M:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)"/>
+            <seealso cref="M:SVGCards.Deck.Deck_AltInfo.SpadesInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)"/>
+            <seealso cref="M:SVGCards.Deck.Deck_AltInfo.BacksInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)"/>
+            <seealso cref="M:SVGCards.Deck.Deck_AltInfo.JokerInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)"/>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.Children">
+            <summary>
+            Gets an array containing the child classes of this layer
+            </summary>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.Name">
+            <summary>
+            Gets the name of the class
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.Transform(System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Returns the transform, transformed by matrix m, applied to the object at paint-time for the layer
+            </summary>
+        </member>
+        <member name="T:SVGCards.Deck.Deck_AltInfo.ClubsInfo">
+            <summary>
+            This is the class for the layer named Clubs
+            </summary>
+        </member>
+        <member name="F:SVGCards.Deck.Deck_AltInfo.ClubsInfo.King">
+            <summary>
+            A reference to an instance of the class King which represents a sublayer of the layer represented by this class.
+            Its paint function is called from within this classes paint function.
+            </summary>
+        </member>
+        <member name="F:SVGCards.Deck.Deck_AltInfo.ClubsInfo.Queen">
+            <summary>
+            A reference to an instance of the class Queen which represents a sublayer of the layer represented by this class.
+            Its paint function is called from within this classes paint function.
+            </summary>
+        </member>
+        <member name="F:SVGCards.Deck.Deck_AltInfo.ClubsInfo.Jack">
+            <summary>
+            A reference to an instance of the class Jack which represents a sublayer of the layer represented by this class.
+            Its paint function is called from within this classes paint function.
+            </summary>
+        </member>
+        <member name="F:SVGCards.Deck.Deck_AltInfo.ClubsInfo.Ten">
+            <summary>
+            A reference to an instance of the class Ten which represents a sublayer of the layer represented by this class.
+            Its paint function is called from within this classes paint function.
+            </summary>
+        </member>
+        <member name="F:SVGCards.Deck.Deck_AltInfo.ClubsInfo.Nine">
+            <summary>
+            A reference to an instance of the class Nine which represents a sublayer of the layer represented by this class.
+            Its paint function is called from within this classes paint function.
+            </summary>
+        </member>
+        <member name="F:SVGCards.Deck.Deck_AltInfo.ClubsInfo.Eight">
+            <summary>
+            A reference to an instance of the class Eight which represents a sublayer of the layer represented by this class.
+            Its paint function is called from within this classes paint function.
+            </summary>
+        </member>
+        <member name="F:SVGCards.Deck.Deck_AltInfo.ClubsInfo.Seven">
+            <summary>
+            A reference to an instance of the class Seven which represents a sublayer of the layer represented by this class.
+            Its paint function is called from within this classes paint function.
+            </summary>
+        </member>
+        <member name="F:SVGCards.Deck.Deck_AltInfo.ClubsInfo.Six">
+            <summary>
+            A reference to an instance of the class Six which represents a sublayer of the layer represented by this class.
+            Its paint function is called from within this classes paint function.
+            </summary>
+        </member>
+        <member name="F:SVGCards.Deck.Deck_AltInfo.ClubsInfo.Five">
+            <summary>
+            A reference to an instance of the class Five which represents a sublayer of the layer represented by this class.
+            Its paint function is called from within this classes paint function.
+            </summary>
+        </member>
+        <member name="F:SVGCards.Deck.Deck_AltInfo.ClubsInfo.Four">
+            <summary>
+            A reference to an instance of the class Four which represents a sublayer of the layer represented by this class.
+            Its paint function is called from within this classes paint function.
+            </summary>
+        </member>
+        <member name="F:SVGCards.Deck.Deck_AltInfo.ClubsInfo.Three">
+            <summary>
+            A reference to an instance of the class Three which represents a sublayer of the layer represented by this class.
+            Its paint function is called from within this classes paint function.
+            </summary>
+        </member>
+        <member name="F:SVGCards.Deck.Deck_AltInfo.ClubsInfo.Two">
+            <summary>
+            A reference to an instance of the class Two which represents a sublayer of the layer represented by this class.
+            Its paint function is called from within this classes paint function.
+            </summary>
+        </member>
+        <member name="F:SVGCards.Deck.Deck_AltInfo.ClubsInfo.Ace">
+            <summary>
+            A reference to an instance of the class Ace which represents a sublayer of the layer represented by this class.
+            Its paint function is called from within this classes paint function.
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.ClubsInfo.#ctor(SVGCards.IAIGraphicObject)">
+            <summary>
+            Class constructor takes an object implementing the IAIGraphicObject interface
+            This object is assigned as the parent
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.ClubsInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Paints the layer Clubs if IsVisible is true
+            </summary>
+            <param name="g">The Graphics surface to paint to</param>
+            <param name="t">Transforms the graphic objects from Adobe coordinate space to application coordinate space</param>
+            <seealso cref="M:SVGCards.Deck.Deck_AltInfo.ClubsInfo.KingInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)"/>
+            <seealso cref="M:SVGCards.Deck.Deck_AltInfo.ClubsInfo.QueenInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)"/>
+            <seealso cref="M:SVGCards.Deck.Deck_AltInfo.ClubsInfo.JackInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)"/>
+            <seealso cref="M:SVGCards.Deck.Deck_AltInfo.ClubsInfo.TenInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)"/>
+            <seealso cref="M:SVGCards.Deck.Deck_AltInfo.ClubsInfo.NineInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)"/>
+            <seealso cref="M:SVGCards.Deck.Deck_AltInfo.ClubsInfo.EightInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)"/>
+            <seealso cref="M:SVGCards.Deck.Deck_AltInfo.ClubsInfo.SevenInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)"/>
+            <seealso cref="M:SVGCards.Deck.Deck_AltInfo.ClubsInfo.SixInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)"/>
+            <seealso cref="M:SVGCards.Deck.Deck_AltInfo.ClubsInfo.FiveInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)"/>
+            <seealso cref="M:SVGCards.Deck.Deck_AltInfo.ClubsInfo.FourInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)"/>
+            <seealso cref="M:SVGCards.Deck.Deck_AltInfo.ClubsInfo.ThreeInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)"/>
+            <seealso cref="M:SVGCards.Deck.Deck_AltInfo.ClubsInfo.TwoInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)"/>
+            <seealso cref="M:SVGCards.Deck.Deck_AltInfo.ClubsInfo.AceInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)"/>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.ClubsInfo.Children">
+            <summary>
+            Gets an array containing the child classes of this layer
+            </summary>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.ClubsInfo.Name">
+            <summary>
+            Gets the name of the class
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.ClubsInfo.Transform(System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Returns the transform, transformed by matrix m, applied to the object at paint-time for the layer
+            </summary>
+        </member>
+        <member name="T:SVGCards.Deck.Deck_AltInfo.ClubsInfo.KingInfo">
+            <summary>
+            This is the class for the layer named King
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.ClubsInfo.KingInfo.#ctor(SVGCards.IAIGraphicObject)">
+            <summary>
+            Class constructor takes an object implementing the IAIGraphicObject interface
+            This object is assigned as the parent
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.ClubsInfo.KingInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Paints the layer King if IsVisible is true
+            </summary>
+            <param name="g">The Graphics surface to paint to</param>
+            <param name="t">Transforms the graphic objects from Adobe coordinate space to application coordinate space</param>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.ClubsInfo.KingInfo.Children">
+            <summary>
+            Gets an array containing the child classes of this layer
+            </summary>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.ClubsInfo.KingInfo.Name">
+            <summary>
+            Gets the name of the class
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.ClubsInfo.KingInfo.Transform(System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Returns the transform, transformed by matrix m, applied to the object at paint-time for the layer
+            </summary>
+        </member>
+        <member name="T:SVGCards.Deck.Deck_AltInfo.ClubsInfo.QueenInfo">
+            <summary>
+            This is the class for the layer named Queen
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.ClubsInfo.QueenInfo.#ctor(SVGCards.IAIGraphicObject)">
+            <summary>
+            Class constructor takes an object implementing the IAIGraphicObject interface
+            This object is assigned as the parent
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.ClubsInfo.QueenInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Paints the layer Queen if IsVisible is true
+            </summary>
+            <param name="g">The Graphics surface to paint to</param>
+            <param name="t">Transforms the graphic objects from Adobe coordinate space to application coordinate space</param>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.ClubsInfo.QueenInfo.Children">
+            <summary>
+            Gets an array containing the child classes of this layer
+            </summary>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.ClubsInfo.QueenInfo.Name">
+            <summary>
+            Gets the name of the class
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.ClubsInfo.QueenInfo.Transform(System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Returns the transform, transformed by matrix m, applied to the object at paint-time for the layer
+            </summary>
+        </member>
+        <member name="T:SVGCards.Deck.Deck_AltInfo.ClubsInfo.JackInfo">
+            <summary>
+            This is the class for the layer named Jack
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.ClubsInfo.JackInfo.#ctor(SVGCards.IAIGraphicObject)">
+            <summary>
+            Class constructor takes an object implementing the IAIGraphicObject interface
+            This object is assigned as the parent
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.ClubsInfo.JackInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Paints the layer Jack if IsVisible is true
+            </summary>
+            <param name="g">The Graphics surface to paint to</param>
+            <param name="t">Transforms the graphic objects from Adobe coordinate space to application coordinate space</param>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.ClubsInfo.JackInfo.Children">
+            <summary>
+            Gets an array containing the child classes of this layer
+            </summary>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.ClubsInfo.JackInfo.Name">
+            <summary>
+            Gets the name of the class
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.ClubsInfo.JackInfo.Transform(System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Returns the transform, transformed by matrix m, applied to the object at paint-time for the layer
+            </summary>
+        </member>
+        <member name="T:SVGCards.Deck.Deck_AltInfo.ClubsInfo.TenInfo">
+            <summary>
+            This is the class for the layer named Ten
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.ClubsInfo.TenInfo.#ctor(SVGCards.IAIGraphicObject)">
+            <summary>
+            Class constructor takes an object implementing the IAIGraphicObject interface
+            This object is assigned as the parent
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.ClubsInfo.TenInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Paints the layer Ten if IsVisible is true
+            </summary>
+            <param name="g">The Graphics surface to paint to</param>
+            <param name="t">Transforms the graphic objects from Adobe coordinate space to application coordinate space</param>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.ClubsInfo.TenInfo.Children">
+            <summary>
+            Gets an array containing the child classes of this layer
+            </summary>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.ClubsInfo.TenInfo.Name">
+            <summary>
+            Gets the name of the class
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.ClubsInfo.TenInfo.Transform(System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Returns the transform, transformed by matrix m, applied to the object at paint-time for the layer
+            </summary>
+        </member>
+        <member name="T:SVGCards.Deck.Deck_AltInfo.ClubsInfo.NineInfo">
+            <summary>
+            This is the class for the layer named Nine
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.ClubsInfo.NineInfo.#ctor(SVGCards.IAIGraphicObject)">
+            <summary>
+            Class constructor takes an object implementing the IAIGraphicObject interface
+            This object is assigned as the parent
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.ClubsInfo.NineInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Paints the layer Nine if IsVisible is true
+            </summary>
+            <param name="g">The Graphics surface to paint to</param>
+            <param name="t">Transforms the graphic objects from Adobe coordinate space to application coordinate space</param>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.ClubsInfo.NineInfo.Children">
+            <summary>
+            Gets an array containing the child classes of this layer
+            </summary>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.ClubsInfo.NineInfo.Name">
+            <summary>
+            Gets the name of the class
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.ClubsInfo.NineInfo.Transform(System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Returns the transform, transformed by matrix m, applied to the object at paint-time for the layer
+            </summary>
+        </member>
+        <member name="T:SVGCards.Deck.Deck_AltInfo.ClubsInfo.EightInfo">
+            <summary>
+            This is the class for the layer named Eight
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.ClubsInfo.EightInfo.#ctor(SVGCards.IAIGraphicObject)">
+            <summary>
+            Class constructor takes an object implementing the IAIGraphicObject interface
+            This object is assigned as the parent
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.ClubsInfo.EightInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Paints the layer Eight if IsVisible is true
+            </summary>
+            <param name="g">The Graphics surface to paint to</param>
+            <param name="t">Transforms the graphic objects from Adobe coordinate space to application coordinate space</param>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.ClubsInfo.EightInfo.Children">
+            <summary>
+            Gets an array containing the child classes of this layer
+            </summary>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.ClubsInfo.EightInfo.Name">
+            <summary>
+            Gets the name of the class
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.ClubsInfo.EightInfo.Transform(System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Returns the transform, transformed by matrix m, applied to the object at paint-time for the layer
+            </summary>
+        </member>
+        <member name="T:SVGCards.Deck.Deck_AltInfo.ClubsInfo.SevenInfo">
+            <summary>
+            This is the class for the layer named Seven
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.ClubsInfo.SevenInfo.#ctor(SVGCards.IAIGraphicObject)">
+            <summary>
+            Class constructor takes an object implementing the IAIGraphicObject interface
+            This object is assigned as the parent
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.ClubsInfo.SevenInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Paints the layer Seven if IsVisible is true
+            </summary>
+            <param name="g">The Graphics surface to paint to</param>
+            <param name="t">Transforms the graphic objects from Adobe coordinate space to application coordinate space</param>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.ClubsInfo.SevenInfo.Children">
+            <summary>
+            Gets an array containing the child classes of this layer
+            </summary>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.ClubsInfo.SevenInfo.Name">
+            <summary>
+            Gets the name of the class
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.ClubsInfo.SevenInfo.Transform(System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Returns the transform, transformed by matrix m, applied to the object at paint-time for the layer
+            </summary>
+        </member>
+        <member name="T:SVGCards.Deck.Deck_AltInfo.ClubsInfo.SixInfo">
+            <summary>
+            This is the class for the layer named Six
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.ClubsInfo.SixInfo.#ctor(SVGCards.IAIGraphicObject)">
+            <summary>
+            Class constructor takes an object implementing the IAIGraphicObject interface
+            This object is assigned as the parent
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.ClubsInfo.SixInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Paints the layer Six if IsVisible is true
+            </summary>
+            <param name="g">The Graphics surface to paint to</param>
+            <param name="t">Transforms the graphic objects from Adobe coordinate space to application coordinate space</param>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.ClubsInfo.SixInfo.Children">
+            <summary>
+            Gets an array containing the child classes of this layer
+            </summary>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.ClubsInfo.SixInfo.Name">
+            <summary>
+            Gets the name of the class
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.ClubsInfo.SixInfo.Transform(System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Returns the transform, transformed by matrix m, applied to the object at paint-time for the layer
+            </summary>
+        </member>
+        <member name="T:SVGCards.Deck.Deck_AltInfo.ClubsInfo.FiveInfo">
+            <summary>
+            This is the class for the layer named Five
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.ClubsInfo.FiveInfo.#ctor(SVGCards.IAIGraphicObject)">
+            <summary>
+            Class constructor takes an object implementing the IAIGraphicObject interface
+            This object is assigned as the parent
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.ClubsInfo.FiveInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Paints the layer Five if IsVisible is true
+            </summary>
+            <param name="g">The Graphics surface to paint to</param>
+            <param name="t">Transforms the graphic objects from Adobe coordinate space to application coordinate space</param>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.ClubsInfo.FiveInfo.Children">
+            <summary>
+            Gets an array containing the child classes of this layer
+            </summary>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.ClubsInfo.FiveInfo.Name">
+            <summary>
+            Gets the name of the class
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.ClubsInfo.FiveInfo.Transform(System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Returns the transform, transformed by matrix m, applied to the object at paint-time for the layer
+            </summary>
+        </member>
+        <member name="T:SVGCards.Deck.Deck_AltInfo.ClubsInfo.FourInfo">
+            <summary>
+            This is the class for the layer named Four
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.ClubsInfo.FourInfo.#ctor(SVGCards.IAIGraphicObject)">
+            <summary>
+            Class constructor takes an object implementing the IAIGraphicObject interface
+            This object is assigned as the parent
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.ClubsInfo.FourInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Paints the layer Four if IsVisible is true
+            </summary>
+            <param name="g">The Graphics surface to paint to</param>
+            <param name="t">Transforms the graphic objects from Adobe coordinate space to application coordinate space</param>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.ClubsInfo.FourInfo.Children">
+            <summary>
+            Gets an array containing the child classes of this layer
+            </summary>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.ClubsInfo.FourInfo.Name">
+            <summary>
+            Gets the name of the class
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.ClubsInfo.FourInfo.Transform(System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Returns the transform, transformed by matrix m, applied to the object at paint-time for the layer
+            </summary>
+        </member>
+        <member name="T:SVGCards.Deck.Deck_AltInfo.ClubsInfo.ThreeInfo">
+            <summary>
+            This is the class for the layer named Three
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.ClubsInfo.ThreeInfo.#ctor(SVGCards.IAIGraphicObject)">
+            <summary>
+            Class constructor takes an object implementing the IAIGraphicObject interface
+            This object is assigned as the parent
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.ClubsInfo.ThreeInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Paints the layer Three if IsVisible is true
+            </summary>
+            <param name="g">The Graphics surface to paint to</param>
+            <param name="t">Transforms the graphic objects from Adobe coordinate space to application coordinate space</param>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.ClubsInfo.ThreeInfo.Children">
+            <summary>
+            Gets an array containing the child classes of this layer
+            </summary>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.ClubsInfo.ThreeInfo.Name">
+            <summary>
+            Gets the name of the class
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.ClubsInfo.ThreeInfo.Transform(System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Returns the transform, transformed by matrix m, applied to the object at paint-time for the layer
+            </summary>
+        </member>
+        <member name="T:SVGCards.Deck.Deck_AltInfo.ClubsInfo.TwoInfo">
+            <summary>
+            This is the class for the layer named Two
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.ClubsInfo.TwoInfo.#ctor(SVGCards.IAIGraphicObject)">
+            <summary>
+            Class constructor takes an object implementing the IAIGraphicObject interface
+            This object is assigned as the parent
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.ClubsInfo.TwoInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Paints the layer Two if IsVisible is true
+            </summary>
+            <param name="g">The Graphics surface to paint to</param>
+            <param name="t">Transforms the graphic objects from Adobe coordinate space to application coordinate space</param>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.ClubsInfo.TwoInfo.Children">
+            <summary>
+            Gets an array containing the child classes of this layer
+            </summary>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.ClubsInfo.TwoInfo.Name">
+            <summary>
+            Gets the name of the class
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.ClubsInfo.TwoInfo.Transform(System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Returns the transform, transformed by matrix m, applied to the object at paint-time for the layer
+            </summary>
+        </member>
+        <member name="T:SVGCards.Deck.Deck_AltInfo.ClubsInfo.AceInfo">
+            <summary>
+            This is the class for the layer named Ace
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.ClubsInfo.AceInfo.#ctor(SVGCards.IAIGraphicObject)">
+            <summary>
+            Class constructor takes an object implementing the IAIGraphicObject interface
+            This object is assigned as the parent
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.ClubsInfo.AceInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Paints the layer Ace if IsVisible is true
+            </summary>
+            <param name="g">The Graphics surface to paint to</param>
+            <param name="t">Transforms the graphic objects from Adobe coordinate space to application coordinate space</param>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.ClubsInfo.AceInfo.Children">
+            <summary>
+            Gets an array containing the child classes of this layer
+            </summary>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.ClubsInfo.AceInfo.Name">
+            <summary>
+            Gets the name of the class
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.ClubsInfo.AceInfo.Transform(System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Returns the transform, transformed by matrix m, applied to the object at paint-time for the layer
+            </summary>
+        </member>
+        <member name="T:SVGCards.Deck.Deck_AltInfo.HeartsInfo">
+            <summary>
+            This is the class for the layer named Hearts
+            </summary>
+        </member>
+        <member name="F:SVGCards.Deck.Deck_AltInfo.HeartsInfo.Ace">
+            <summary>
+            A reference to an instance of the class Ace which represents a sublayer of the layer represented by this class.
+            Its paint function is called from within this classes paint function.
+            </summary>
+        </member>
+        <member name="F:SVGCards.Deck.Deck_AltInfo.HeartsInfo.Two">
+            <summary>
+            A reference to an instance of the class Two which represents a sublayer of the layer represented by this class.
+            Its paint function is called from within this classes paint function.
+            </summary>
+        </member>
+        <member name="F:SVGCards.Deck.Deck_AltInfo.HeartsInfo.Three">
+            <summary>
+            A reference to an instance of the class Three which represents a sublayer of the layer represented by this class.
+            Its paint function is called from within this classes paint function.
+            </summary>
+        </member>
+        <member name="F:SVGCards.Deck.Deck_AltInfo.HeartsInfo.Four">
+            <summary>
+            A reference to an instance of the class Four which represents a sublayer of the layer represented by this class.
+            Its paint function is called from within this classes paint function.
+            </summary>
+        </member>
+        <member name="F:SVGCards.Deck.Deck_AltInfo.HeartsInfo.Five">
+            <summary>
+            A reference to an instance of the class Five which represents a sublayer of the layer represented by this class.
+            Its paint function is called from within this classes paint function.
+            </summary>
+        </member>
+        <member name="F:SVGCards.Deck.Deck_AltInfo.HeartsInfo.Six">
+            <summary>
+            A reference to an instance of the class Six which represents a sublayer of the layer represented by this class.
+            Its paint function is called from within this classes paint function.
+            </summary>
+        </member>
+        <member name="F:SVGCards.Deck.Deck_AltInfo.HeartsInfo.Seven">
+            <summary>
+            A reference to an instance of the class Seven which represents a sublayer of the layer represented by this class.
+            Its paint function is called from within this classes paint function.
+            </summary>
+        </member>
+        <member name="F:SVGCards.Deck.Deck_AltInfo.HeartsInfo.Eight">
+            <summary>
+            A reference to an instance of the class Eight which represents a sublayer of the layer represented by this class.
+            Its paint function is called from within this classes paint function.
+            </summary>
+        </member>
+        <member name="F:SVGCards.Deck.Deck_AltInfo.HeartsInfo.Nine">
+            <summary>
+            A reference to an instance of the class Nine which represents a sublayer of the layer represented by this class.
+            Its paint function is called from within this classes paint function.
+            </summary>
+        </member>
+        <member name="F:SVGCards.Deck.Deck_AltInfo.HeartsInfo.Ten">
+            <summary>
+            A reference to an instance of the class Ten which represents a sublayer of the layer represented by this class.
+            Its paint function is called from within this classes paint function.
+            </summary>
+        </member>
+        <member name="F:SVGCards.Deck.Deck_AltInfo.HeartsInfo.Jack">
+            <summary>
+            A reference to an instance of the class Jack which represents a sublayer of the layer represented by this class.
+            Its paint function is called from within this classes paint function.
+            </summary>
+        </member>
+        <member name="F:SVGCards.Deck.Deck_AltInfo.HeartsInfo.Queen">
+            <summary>
+            A reference to an instance of the class Queen which represents a sublayer of the layer represented by this class.
+            Its paint function is called from within this classes paint function.
+            </summary>
+        </member>
+        <member name="F:SVGCards.Deck.Deck_AltInfo.HeartsInfo.King">
+            <summary>
+            A reference to an instance of the class King which represents a sublayer of the layer represented by this class.
+            Its paint function is called from within this classes paint function.
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.HeartsInfo.#ctor(SVGCards.IAIGraphicObject)">
+            <summary>
+            Class constructor takes an object implementing the IAIGraphicObject interface
+            This object is assigned as the parent
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.HeartsInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Paints the layer Hearts if IsVisible is true
+            </summary>
+            <param name="g">The Graphics surface to paint to</param>
+            <param name="t">Transforms the graphic objects from Adobe coordinate space to application coordinate space</param>
+            <seealso cref="M:SVGCards.Deck.Deck_AltInfo.HeartsInfo.AceInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)"/>
+            <seealso cref="M:SVGCards.Deck.Deck_AltInfo.HeartsInfo.TwoInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)"/>
+            <seealso cref="M:SVGCards.Deck.Deck_AltInfo.HeartsInfo.ThreeInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)"/>
+            <seealso cref="M:SVGCards.Deck.Deck_AltInfo.HeartsInfo.FourInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)"/>
+            <seealso cref="M:SVGCards.Deck.Deck_AltInfo.HeartsInfo.FiveInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)"/>
+            <seealso cref="M:SVGCards.Deck.Deck_AltInfo.HeartsInfo.SixInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)"/>
+            <seealso cref="M:SVGCards.Deck.Deck_AltInfo.HeartsInfo.SevenInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)"/>
+            <seealso cref="M:SVGCards.Deck.Deck_AltInfo.HeartsInfo.EightInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)"/>
+            <seealso cref="M:SVGCards.Deck.Deck_AltInfo.HeartsInfo.NineInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)"/>
+            <seealso cref="M:SVGCards.Deck.Deck_AltInfo.HeartsInfo.TenInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)"/>
+            <seealso cref="M:SVGCards.Deck.Deck_AltInfo.HeartsInfo.JackInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)"/>
+            <seealso cref="M:SVGCards.Deck.Deck_AltInfo.HeartsInfo.QueenInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)"/>
+            <seealso cref="M:SVGCards.Deck.Deck_AltInfo.HeartsInfo.KingInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)"/>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.HeartsInfo.Children">
+            <summary>
+            Gets an array containing the child classes of this layer
+            </summary>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.HeartsInfo.Name">
+            <summary>
+            Gets the name of the class
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.HeartsInfo.Transform(System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Returns the transform, transformed by matrix m, applied to the object at paint-time for the layer
+            </summary>
+        </member>
+        <member name="T:SVGCards.Deck.Deck_AltInfo.HeartsInfo.AceInfo">
+            <summary>
+            This is the class for the layer named Ace
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.HeartsInfo.AceInfo.#ctor(SVGCards.IAIGraphicObject)">
+            <summary>
+            Class constructor takes an object implementing the IAIGraphicObject interface
+            This object is assigned as the parent
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.HeartsInfo.AceInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Paints the layer Ace if IsVisible is true
+            </summary>
+            <param name="g">The Graphics surface to paint to</param>
+            <param name="t">Transforms the graphic objects from Adobe coordinate space to application coordinate space</param>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.HeartsInfo.AceInfo.Children">
+            <summary>
+            Gets an array containing the child classes of this layer
+            </summary>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.HeartsInfo.AceInfo.Name">
+            <summary>
+            Gets the name of the class
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.HeartsInfo.AceInfo.Transform(System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Returns the transform, transformed by matrix m, applied to the object at paint-time for the layer
+            </summary>
+        </member>
+        <member name="T:SVGCards.Deck.Deck_AltInfo.HeartsInfo.TwoInfo">
+            <summary>
+            This is the class for the layer named Two
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.HeartsInfo.TwoInfo.#ctor(SVGCards.IAIGraphicObject)">
+            <summary>
+            Class constructor takes an object implementing the IAIGraphicObject interface
+            This object is assigned as the parent
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.HeartsInfo.TwoInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Paints the layer Two if IsVisible is true
+            </summary>
+            <param name="g">The Graphics surface to paint to</param>
+            <param name="t">Transforms the graphic objects from Adobe coordinate space to application coordinate space</param>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.HeartsInfo.TwoInfo.Children">
+            <summary>
+            Gets an array containing the child classes of this layer
+            </summary>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.HeartsInfo.TwoInfo.Name">
+            <summary>
+            Gets the name of the class
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.HeartsInfo.TwoInfo.Transform(System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Returns the transform, transformed by matrix m, applied to the object at paint-time for the layer
+            </summary>
+        </member>
+        <member name="T:SVGCards.Deck.Deck_AltInfo.HeartsInfo.ThreeInfo">
+            <summary>
+            This is the class for the layer named Three
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.HeartsInfo.ThreeInfo.#ctor(SVGCards.IAIGraphicObject)">
+            <summary>
+            Class constructor takes an object implementing the IAIGraphicObject interface
+            This object is assigned as the parent
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.HeartsInfo.ThreeInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Paints the layer Three if IsVisible is true
+            </summary>
+            <param name="g">The Graphics surface to paint to</param>
+            <param name="t">Transforms the graphic objects from Adobe coordinate space to application coordinate space</param>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.HeartsInfo.ThreeInfo.Children">
+            <summary>
+            Gets an array containing the child classes of this layer
+            </summary>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.HeartsInfo.ThreeInfo.Name">
+            <summary>
+            Gets the name of the class
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.HeartsInfo.ThreeInfo.Transform(System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Returns the transform, transformed by matrix m, applied to the object at paint-time for the layer
+            </summary>
+        </member>
+        <member name="T:SVGCards.Deck.Deck_AltInfo.HeartsInfo.FourInfo">
+            <summary>
+            This is the class for the layer named Four
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.HeartsInfo.FourInfo.#ctor(SVGCards.IAIGraphicObject)">
+            <summary>
+            Class constructor takes an object implementing the IAIGraphicObject interface
+            This object is assigned as the parent
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.HeartsInfo.FourInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Paints the layer Four if IsVisible is true
+            </summary>
+            <param name="g">The Graphics surface to paint to</param>
+            <param name="t">Transforms the graphic objects from Adobe coordinate space to application coordinate space</param>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.HeartsInfo.FourInfo.Children">
+            <summary>
+            Gets an array containing the child classes of this layer
+            </summary>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.HeartsInfo.FourInfo.Name">
+            <summary>
+            Gets the name of the class
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.HeartsInfo.FourInfo.Transform(System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Returns the transform, transformed by matrix m, applied to the object at paint-time for the layer
+            </summary>
+        </member>
+        <member name="T:SVGCards.Deck.Deck_AltInfo.HeartsInfo.FiveInfo">
+            <summary>
+            This is the class for the layer named Five
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.HeartsInfo.FiveInfo.#ctor(SVGCards.IAIGraphicObject)">
+            <summary>
+            Class constructor takes an object implementing the IAIGraphicObject interface
+            This object is assigned as the parent
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.HeartsInfo.FiveInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Paints the layer Five if IsVisible is true
+            </summary>
+            <param name="g">The Graphics surface to paint to</param>
+            <param name="t">Transforms the graphic objects from Adobe coordinate space to application coordinate space</param>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.HeartsInfo.FiveInfo.Children">
+            <summary>
+            Gets an array containing the child classes of this layer
+            </summary>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.HeartsInfo.FiveInfo.Name">
+            <summary>
+            Gets the name of the class
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.HeartsInfo.FiveInfo.Transform(System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Returns the transform, transformed by matrix m, applied to the object at paint-time for the layer
+            </summary>
+        </member>
+        <member name="T:SVGCards.Deck.Deck_AltInfo.HeartsInfo.SixInfo">
+            <summary>
+            This is the class for the layer named Six
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.HeartsInfo.SixInfo.#ctor(SVGCards.IAIGraphicObject)">
+            <summary>
+            Class constructor takes an object implementing the IAIGraphicObject interface
+            This object is assigned as the parent
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.HeartsInfo.SixInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Paints the layer Six if IsVisible is true
+            </summary>
+            <param name="g">The Graphics surface to paint to</param>
+            <param name="t">Transforms the graphic objects from Adobe coordinate space to application coordinate space</param>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.HeartsInfo.SixInfo.Children">
+            <summary>
+            Gets an array containing the child classes of this layer
+            </summary>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.HeartsInfo.SixInfo.Name">
+            <summary>
+            Gets the name of the class
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.HeartsInfo.SixInfo.Transform(System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Returns the transform, transformed by matrix m, applied to the object at paint-time for the layer
+            </summary>
+        </member>
+        <member name="T:SVGCards.Deck.Deck_AltInfo.HeartsInfo.SevenInfo">
+            <summary>
+            This is the class for the layer named Seven
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.HeartsInfo.SevenInfo.#ctor(SVGCards.IAIGraphicObject)">
+            <summary>
+            Class constructor takes an object implementing the IAIGraphicObject interface
+            This object is assigned as the parent
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.HeartsInfo.SevenInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Paints the layer Seven if IsVisible is true
+            </summary>
+            <param name="g">The Graphics surface to paint to</param>
+            <param name="t">Transforms the graphic objects from Adobe coordinate space to application coordinate space</param>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.HeartsInfo.SevenInfo.Children">
+            <summary>
+            Gets an array containing the child classes of this layer
+            </summary>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.HeartsInfo.SevenInfo.Name">
+            <summary>
+            Gets the name of the class
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.HeartsInfo.SevenInfo.Transform(System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Returns the transform, transformed by matrix m, applied to the object at paint-time for the layer
+            </summary>
+        </member>
+        <member name="T:SVGCards.Deck.Deck_AltInfo.HeartsInfo.EightInfo">
+            <summary>
+            This is the class for the layer named Eight
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.HeartsInfo.EightInfo.#ctor(SVGCards.IAIGraphicObject)">
+            <summary>
+            Class constructor takes an object implementing the IAIGraphicObject interface
+            This object is assigned as the parent
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.HeartsInfo.EightInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Paints the layer Eight if IsVisible is true
+            </summary>
+            <param name="g">The Graphics surface to paint to</param>
+            <param name="t">Transforms the graphic objects from Adobe coordinate space to application coordinate space</param>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.HeartsInfo.EightInfo.Children">
+            <summary>
+            Gets an array containing the child classes of this layer
+            </summary>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.HeartsInfo.EightInfo.Name">
+            <summary>
+            Gets the name of the class
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.HeartsInfo.EightInfo.Transform(System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Returns the transform, transformed by matrix m, applied to the object at paint-time for the layer
+            </summary>
+        </member>
+        <member name="T:SVGCards.Deck.Deck_AltInfo.HeartsInfo.NineInfo">
+            <summary>
+            This is the class for the layer named Nine
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.HeartsInfo.NineInfo.#ctor(SVGCards.IAIGraphicObject)">
+            <summary>
+            Class constructor takes an object implementing the IAIGraphicObject interface
+            This object is assigned as the parent
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.HeartsInfo.NineInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Paints the layer Nine if IsVisible is true
+            </summary>
+            <param name="g">The Graphics surface to paint to</param>
+            <param name="t">Transforms the graphic objects from Adobe coordinate space to application coordinate space</param>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.HeartsInfo.NineInfo.Children">
+            <summary>
+            Gets an array containing the child classes of this layer
+            </summary>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.HeartsInfo.NineInfo.Name">
+            <summary>
+            Gets the name of the class
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.HeartsInfo.NineInfo.Transform(System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Returns the transform, transformed by matrix m, applied to the object at paint-time for the layer
+            </summary>
+        </member>
+        <member name="T:SVGCards.Deck.Deck_AltInfo.HeartsInfo.TenInfo">
+            <summary>
+            This is the class for the layer named Ten
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.HeartsInfo.TenInfo.#ctor(SVGCards.IAIGraphicObject)">
+            <summary>
+            Class constructor takes an object implementing the IAIGraphicObject interface
+            This object is assigned as the parent
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.HeartsInfo.TenInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Paints the layer Ten if IsVisible is true
+            </summary>
+            <param name="g">The Graphics surface to paint to</param>
+            <param name="t">Transforms the graphic objects from Adobe coordinate space to application coordinate space</param>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.HeartsInfo.TenInfo.Children">
+            <summary>
+            Gets an array containing the child classes of this layer
+            </summary>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.HeartsInfo.TenInfo.Name">
+            <summary>
+            Gets the name of the class
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.HeartsInfo.TenInfo.Transform(System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Returns the transform, transformed by matrix m, applied to the object at paint-time for the layer
+            </summary>
+        </member>
+        <member name="T:SVGCards.Deck.Deck_AltInfo.HeartsInfo.JackInfo">
+            <summary>
+            This is the class for the layer named Jack
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.HeartsInfo.JackInfo.#ctor(SVGCards.IAIGraphicObject)">
+            <summary>
+            Class constructor takes an object implementing the IAIGraphicObject interface
+            This object is assigned as the parent
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.HeartsInfo.JackInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Paints the layer Jack if IsVisible is true
+            </summary>
+            <param name="g">The Graphics surface to paint to</param>
+            <param name="t">Transforms the graphic objects from Adobe coordinate space to application coordinate space</param>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.HeartsInfo.JackInfo.Children">
+            <summary>
+            Gets an array containing the child classes of this layer
+            </summary>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.HeartsInfo.JackInfo.Name">
+            <summary>
+            Gets the name of the class
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.HeartsInfo.JackInfo.Transform(System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Returns the transform, transformed by matrix m, applied to the object at paint-time for the layer
+            </summary>
+        </member>
+        <member name="T:SVGCards.Deck.Deck_AltInfo.HeartsInfo.QueenInfo">
+            <summary>
+            This is the class for the layer named Queen
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.HeartsInfo.QueenInfo.#ctor(SVGCards.IAIGraphicObject)">
+            <summary>
+            Class constructor takes an object implementing the IAIGraphicObject interface
+            This object is assigned as the parent
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.HeartsInfo.QueenInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Paints the layer Queen if IsVisible is true
+            </summary>
+            <param name="g">The Graphics surface to paint to</param>
+            <param name="t">Transforms the graphic objects from Adobe coordinate space to application coordinate space</param>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.HeartsInfo.QueenInfo.Children">
+            <summary>
+            Gets an array containing the child classes of this layer
+            </summary>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.HeartsInfo.QueenInfo.Name">
+            <summary>
+            Gets the name of the class
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.HeartsInfo.QueenInfo.Transform(System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Returns the transform, transformed by matrix m, applied to the object at paint-time for the layer
+            </summary>
+        </member>
+        <member name="T:SVGCards.Deck.Deck_AltInfo.HeartsInfo.KingInfo">
+            <summary>
+            This is the class for the layer named King
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.HeartsInfo.KingInfo.#ctor(SVGCards.IAIGraphicObject)">
+            <summary>
+            Class constructor takes an object implementing the IAIGraphicObject interface
+            This object is assigned as the parent
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.HeartsInfo.KingInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Paints the layer King if IsVisible is true
+            </summary>
+            <param name="g">The Graphics surface to paint to</param>
+            <param name="t">Transforms the graphic objects from Adobe coordinate space to application coordinate space</param>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.HeartsInfo.KingInfo.Children">
+            <summary>
+            Gets an array containing the child classes of this layer
+            </summary>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.HeartsInfo.KingInfo.Name">
+            <summary>
+            Gets the name of the class
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.HeartsInfo.KingInfo.Transform(System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Returns the transform, transformed by matrix m, applied to the object at paint-time for the layer
+            </summary>
+        </member>
+        <member name="T:SVGCards.Deck.Deck_AltInfo.DiamondsInfo">
+            <summary>
+            This is the class for the layer named Diamonds
+            </summary>
+        </member>
+        <member name="F:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.Ace">
+            <summary>
+            A reference to an instance of the class Ace which represents a sublayer of the layer represented by this class.
+            Its paint function is called from within this classes paint function.
+            </summary>
+        </member>
+        <member name="F:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.Two">
+            <summary>
+            A reference to an instance of the class Two which represents a sublayer of the layer represented by this class.
+            Its paint function is called from within this classes paint function.
+            </summary>
+        </member>
+        <member name="F:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.Three">
+            <summary>
+            A reference to an instance of the class Three which represents a sublayer of the layer represented by this class.
+            Its paint function is called from within this classes paint function.
+            </summary>
+        </member>
+        <member name="F:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.Four">
+            <summary>
+            A reference to an instance of the class Four which represents a sublayer of the layer represented by this class.
+            Its paint function is called from within this classes paint function.
+            </summary>
+        </member>
+        <member name="F:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.Five">
+            <summary>
+            A reference to an instance of the class Five which represents a sublayer of the layer represented by this class.
+            Its paint function is called from within this classes paint function.
+            </summary>
+        </member>
+        <member name="F:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.Six">
+            <summary>
+            A reference to an instance of the class Six which represents a sublayer of the layer represented by this class.
+            Its paint function is called from within this classes paint function.
+            </summary>
+        </member>
+        <member name="F:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.Seven">
+            <summary>
+            A reference to an instance of the class Seven which represents a sublayer of the layer represented by this class.
+            Its paint function is called from within this classes paint function.
+            </summary>
+        </member>
+        <member name="F:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.Eight">
+            <summary>
+            A reference to an instance of the class Eight which represents a sublayer of the layer represented by this class.
+            Its paint function is called from within this classes paint function.
+            </summary>
+        </member>
+        <member name="F:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.Nine">
+            <summary>
+            A reference to an instance of the class Nine which represents a sublayer of the layer represented by this class.
+            Its paint function is called from within this classes paint function.
+            </summary>
+        </member>
+        <member name="F:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.Ten">
+            <summary>
+            A reference to an instance of the class Ten which represents a sublayer of the layer represented by this class.
+            Its paint function is called from within this classes paint function.
+            </summary>
+        </member>
+        <member name="F:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.Jack">
+            <summary>
+            A reference to an instance of the class Jack which represents a sublayer of the layer represented by this class.
+            Its paint function is called from within this classes paint function.
+            </summary>
+        </member>
+        <member name="F:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.Queen">
+            <summary>
+            A reference to an instance of the class Queen which represents a sublayer of the layer represented by this class.
+            Its paint function is called from within this classes paint function.
+            </summary>
+        </member>
+        <member name="F:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.King">
+            <summary>
+            A reference to an instance of the class King which represents a sublayer of the layer represented by this class.
+            Its paint function is called from within this classes paint function.
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.#ctor(SVGCards.IAIGraphicObject)">
+            <summary>
+            Class constructor takes an object implementing the IAIGraphicObject interface
+            This object is assigned as the parent
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Paints the layer Diamonds if IsVisible is true
+            </summary>
+            <param name="g">The Graphics surface to paint to</param>
+            <param name="t">Transforms the graphic objects from Adobe coordinate space to application coordinate space</param>
+            <seealso cref="M:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.AceInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)"/>
+            <seealso cref="M:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.TwoInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)"/>
+            <seealso cref="M:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.ThreeInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)"/>
+            <seealso cref="M:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.FourInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)"/>
+            <seealso cref="M:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.FiveInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)"/>
+            <seealso cref="M:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.SixInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)"/>
+            <seealso cref="M:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.SevenInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)"/>
+            <seealso cref="M:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.EightInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)"/>
+            <seealso cref="M:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.NineInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)"/>
+            <seealso cref="M:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.TenInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)"/>
+            <seealso cref="M:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.JackInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)"/>
+            <seealso cref="M:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.QueenInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)"/>
+            <seealso cref="M:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.KingInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)"/>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.Children">
+            <summary>
+            Gets an array containing the child classes of this layer
+            </summary>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.Name">
+            <summary>
+            Gets the name of the class
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.Transform(System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Returns the transform, transformed by matrix m, applied to the object at paint-time for the layer
+            </summary>
+        </member>
+        <member name="T:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.AceInfo">
+            <summary>
+            This is the class for the layer named Ace
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.AceInfo.#ctor(SVGCards.IAIGraphicObject)">
+            <summary>
+            Class constructor takes an object implementing the IAIGraphicObject interface
+            This object is assigned as the parent
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.AceInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Paints the layer Ace if IsVisible is true
+            </summary>
+            <param name="g">The Graphics surface to paint to</param>
+            <param name="t">Transforms the graphic objects from Adobe coordinate space to application coordinate space</param>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.AceInfo.Children">
+            <summary>
+            Gets an array containing the child classes of this layer
+            </summary>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.AceInfo.Name">
+            <summary>
+            Gets the name of the class
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.AceInfo.Transform(System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Returns the transform, transformed by matrix m, applied to the object at paint-time for the layer
+            </summary>
+        </member>
+        <member name="T:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.TwoInfo">
+            <summary>
+            This is the class for the layer named Two
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.TwoInfo.#ctor(SVGCards.IAIGraphicObject)">
+            <summary>
+            Class constructor takes an object implementing the IAIGraphicObject interface
+            This object is assigned as the parent
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.TwoInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Paints the layer Two if IsVisible is true
+            </summary>
+            <param name="g">The Graphics surface to paint to</param>
+            <param name="t">Transforms the graphic objects from Adobe coordinate space to application coordinate space</param>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.TwoInfo.Children">
+            <summary>
+            Gets an array containing the child classes of this layer
+            </summary>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.TwoInfo.Name">
+            <summary>
+            Gets the name of the class
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.TwoInfo.Transform(System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Returns the transform, transformed by matrix m, applied to the object at paint-time for the layer
+            </summary>
+        </member>
+        <member name="T:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.ThreeInfo">
+            <summary>
+            This is the class for the layer named Three
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.ThreeInfo.#ctor(SVGCards.IAIGraphicObject)">
+            <summary>
+            Class constructor takes an object implementing the IAIGraphicObject interface
+            This object is assigned as the parent
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.ThreeInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Paints the layer Three if IsVisible is true
+            </summary>
+            <param name="g">The Graphics surface to paint to</param>
+            <param name="t">Transforms the graphic objects from Adobe coordinate space to application coordinate space</param>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.ThreeInfo.Children">
+            <summary>
+            Gets an array containing the child classes of this layer
+            </summary>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.ThreeInfo.Name">
+            <summary>
+            Gets the name of the class
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.ThreeInfo.Transform(System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Returns the transform, transformed by matrix m, applied to the object at paint-time for the layer
+            </summary>
+        </member>
+        <member name="T:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.FourInfo">
+            <summary>
+            This is the class for the layer named Four
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.FourInfo.#ctor(SVGCards.IAIGraphicObject)">
+            <summary>
+            Class constructor takes an object implementing the IAIGraphicObject interface
+            This object is assigned as the parent
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.FourInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Paints the layer Four if IsVisible is true
+            </summary>
+            <param name="g">The Graphics surface to paint to</param>
+            <param name="t">Transforms the graphic objects from Adobe coordinate space to application coordinate space</param>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.FourInfo.Children">
+            <summary>
+            Gets an array containing the child classes of this layer
+            </summary>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.FourInfo.Name">
+            <summary>
+            Gets the name of the class
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.FourInfo.Transform(System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Returns the transform, transformed by matrix m, applied to the object at paint-time for the layer
+            </summary>
+        </member>
+        <member name="T:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.FiveInfo">
+            <summary>
+            This is the class for the layer named Five
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.FiveInfo.#ctor(SVGCards.IAIGraphicObject)">
+            <summary>
+            Class constructor takes an object implementing the IAIGraphicObject interface
+            This object is assigned as the parent
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.FiveInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Paints the layer Five if IsVisible is true
+            </summary>
+            <param name="g">The Graphics surface to paint to</param>
+            <param name="t">Transforms the graphic objects from Adobe coordinate space to application coordinate space</param>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.FiveInfo.Children">
+            <summary>
+            Gets an array containing the child classes of this layer
+            </summary>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.FiveInfo.Name">
+            <summary>
+            Gets the name of the class
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.FiveInfo.Transform(System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Returns the transform, transformed by matrix m, applied to the object at paint-time for the layer
+            </summary>
+        </member>
+        <member name="T:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.SixInfo">
+            <summary>
+            This is the class for the layer named Six
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.SixInfo.#ctor(SVGCards.IAIGraphicObject)">
+            <summary>
+            Class constructor takes an object implementing the IAIGraphicObject interface
+            This object is assigned as the parent
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.SixInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Paints the layer Six if IsVisible is true
+            </summary>
+            <param name="g">The Graphics surface to paint to</param>
+            <param name="t">Transforms the graphic objects from Adobe coordinate space to application coordinate space</param>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.SixInfo.Children">
+            <summary>
+            Gets an array containing the child classes of this layer
+            </summary>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.SixInfo.Name">
+            <summary>
+            Gets the name of the class
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.SixInfo.Transform(System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Returns the transform, transformed by matrix m, applied to the object at paint-time for the layer
+            </summary>
+        </member>
+        <member name="T:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.SevenInfo">
+            <summary>
+            This is the class for the layer named Seven
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.SevenInfo.#ctor(SVGCards.IAIGraphicObject)">
+            <summary>
+            Class constructor takes an object implementing the IAIGraphicObject interface
+            This object is assigned as the parent
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.SevenInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Paints the layer Seven if IsVisible is true
+            </summary>
+            <param name="g">The Graphics surface to paint to</param>
+            <param name="t">Transforms the graphic objects from Adobe coordinate space to application coordinate space</param>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.SevenInfo.Children">
+            <summary>
+            Gets an array containing the child classes of this layer
+            </summary>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.SevenInfo.Name">
+            <summary>
+            Gets the name of the class
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.SevenInfo.Transform(System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Returns the transform, transformed by matrix m, applied to the object at paint-time for the layer
+            </summary>
+        </member>
+        <member name="T:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.EightInfo">
+            <summary>
+            This is the class for the layer named Eight
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.EightInfo.#ctor(SVGCards.IAIGraphicObject)">
+            <summary>
+            Class constructor takes an object implementing the IAIGraphicObject interface
+            This object is assigned as the parent
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.EightInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Paints the layer Eight if IsVisible is true
+            </summary>
+            <param name="g">The Graphics surface to paint to</param>
+            <param name="t">Transforms the graphic objects from Adobe coordinate space to application coordinate space</param>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.EightInfo.Children">
+            <summary>
+            Gets an array containing the child classes of this layer
+            </summary>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.EightInfo.Name">
+            <summary>
+            Gets the name of the class
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.EightInfo.Transform(System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Returns the transform, transformed by matrix m, applied to the object at paint-time for the layer
+            </summary>
+        </member>
+        <member name="T:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.NineInfo">
+            <summary>
+            This is the class for the layer named Nine
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.NineInfo.#ctor(SVGCards.IAIGraphicObject)">
+            <summary>
+            Class constructor takes an object implementing the IAIGraphicObject interface
+            This object is assigned as the parent
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.NineInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Paints the layer Nine if IsVisible is true
+            </summary>
+            <param name="g">The Graphics surface to paint to</param>
+            <param name="t">Transforms the graphic objects from Adobe coordinate space to application coordinate space</param>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.NineInfo.Children">
+            <summary>
+            Gets an array containing the child classes of this layer
+            </summary>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.NineInfo.Name">
+            <summary>
+            Gets the name of the class
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.NineInfo.Transform(System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Returns the transform, transformed by matrix m, applied to the object at paint-time for the layer
+            </summary>
+        </member>
+        <member name="T:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.TenInfo">
+            <summary>
+            This is the class for the layer named Ten
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.TenInfo.#ctor(SVGCards.IAIGraphicObject)">
+            <summary>
+            Class constructor takes an object implementing the IAIGraphicObject interface
+            This object is assigned as the parent
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.TenInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Paints the layer Ten if IsVisible is true
+            </summary>
+            <param name="g">The Graphics surface to paint to</param>
+            <param name="t">Transforms the graphic objects from Adobe coordinate space to application coordinate space</param>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.TenInfo.Children">
+            <summary>
+            Gets an array containing the child classes of this layer
+            </summary>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.TenInfo.Name">
+            <summary>
+            Gets the name of the class
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.TenInfo.Transform(System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Returns the transform, transformed by matrix m, applied to the object at paint-time for the layer
+            </summary>
+        </member>
+        <member name="T:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.JackInfo">
+            <summary>
+            This is the class for the layer named Jack
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.JackInfo.#ctor(SVGCards.IAIGraphicObject)">
+            <summary>
+            Class constructor takes an object implementing the IAIGraphicObject interface
+            This object is assigned as the parent
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.JackInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Paints the layer Jack if IsVisible is true
+            </summary>
+            <param name="g">The Graphics surface to paint to</param>
+            <param name="t">Transforms the graphic objects from Adobe coordinate space to application coordinate space</param>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.JackInfo.Children">
+            <summary>
+            Gets an array containing the child classes of this layer
+            </summary>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.JackInfo.Name">
+            <summary>
+            Gets the name of the class
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.JackInfo.Transform(System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Returns the transform, transformed by matrix m, applied to the object at paint-time for the layer
+            </summary>
+        </member>
+        <member name="T:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.QueenInfo">
+            <summary>
+            This is the class for the layer named Queen
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.QueenInfo.#ctor(SVGCards.IAIGraphicObject)">
+            <summary>
+            Class constructor takes an object implementing the IAIGraphicObject interface
+            This object is assigned as the parent
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.QueenInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Paints the layer Queen if IsVisible is true
+            </summary>
+            <param name="g">The Graphics surface to paint to</param>
+            <param name="t">Transforms the graphic objects from Adobe coordinate space to application coordinate space</param>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.QueenInfo.Children">
+            <summary>
+            Gets an array containing the child classes of this layer
+            </summary>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.QueenInfo.Name">
+            <summary>
+            Gets the name of the class
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.QueenInfo.Transform(System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Returns the transform, transformed by matrix m, applied to the object at paint-time for the layer
+            </summary>
+        </member>
+        <member name="T:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.KingInfo">
+            <summary>
+            This is the class for the layer named King
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.KingInfo.#ctor(SVGCards.IAIGraphicObject)">
+            <summary>
+            Class constructor takes an object implementing the IAIGraphicObject interface
+            This object is assigned as the parent
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.KingInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Paints the layer King if IsVisible is true
+            </summary>
+            <param name="g">The Graphics surface to paint to</param>
+            <param name="t">Transforms the graphic objects from Adobe coordinate space to application coordinate space</param>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.KingInfo.Children">
+            <summary>
+            Gets an array containing the child classes of this layer
+            </summary>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.KingInfo.Name">
+            <summary>
+            Gets the name of the class
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.DiamondsInfo.KingInfo.Transform(System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Returns the transform, transformed by matrix m, applied to the object at paint-time for the layer
+            </summary>
+        </member>
+        <member name="T:SVGCards.Deck.Deck_AltInfo.SpadesInfo">
+            <summary>
+            This is the class for the layer named Spades
+            </summary>
+        </member>
+        <member name="F:SVGCards.Deck.Deck_AltInfo.SpadesInfo.Ace">
+            <summary>
+            A reference to an instance of the class Ace which represents a sublayer of the layer represented by this class.
+            Its paint function is called from within this classes paint function.
+            </summary>
+        </member>
+        <member name="F:SVGCards.Deck.Deck_AltInfo.SpadesInfo.Two">
+            <summary>
+            A reference to an instance of the class Two which represents a sublayer of the layer represented by this class.
+            Its paint function is called from within this classes paint function.
+            </summary>
+        </member>
+        <member name="F:SVGCards.Deck.Deck_AltInfo.SpadesInfo.Three">
+            <summary>
+            A reference to an instance of the class Three which represents a sublayer of the layer represented by this class.
+            Its paint function is called from within this classes paint function.
+            </summary>
+        </member>
+        <member name="F:SVGCards.Deck.Deck_AltInfo.SpadesInfo.Four">
+            <summary>
+            A reference to an instance of the class Four which represents a sublayer of the layer represented by this class.
+            Its paint function is called from within this classes paint function.
+            </summary>
+        </member>
+        <member name="F:SVGCards.Deck.Deck_AltInfo.SpadesInfo.Five">
+            <summary>
+            A reference to an instance of the class Five which represents a sublayer of the layer represented by this class.
+            Its paint function is called from within this classes paint function.
+            </summary>
+        </member>
+        <member name="F:SVGCards.Deck.Deck_AltInfo.SpadesInfo.Six">
+            <summary>
+            A reference to an instance of the class Six which represents a sublayer of the layer represented by this class.
+            Its paint function is called from within this classes paint function.
+            </summary>
+        </member>
+        <member name="F:SVGCards.Deck.Deck_AltInfo.SpadesInfo.Seven">
+            <summary>
+            A reference to an instance of the class Seven which represents a sublayer of the layer represented by this class.
+            Its paint function is called from within this classes paint function.
+            </summary>
+        </member>
+        <member name="F:SVGCards.Deck.Deck_AltInfo.SpadesInfo.Eight">
+            <summary>
+            A reference to an instance of the class Eight which represents a sublayer of the layer represented by this class.
+            Its paint function is called from within this classes paint function.
+            </summary>
+        </member>
+        <member name="F:SVGCards.Deck.Deck_AltInfo.SpadesInfo.Nine">
+            <summary>
+            A reference to an instance of the class Nine which represents a sublayer of the layer represented by this class.
+            Its paint function is called from within this classes paint function.
+            </summary>
+        </member>
+        <member name="F:SVGCards.Deck.Deck_AltInfo.SpadesInfo.Ten">
+            <summary>
+            A reference to an instance of the class Ten which represents a sublayer of the layer represented by this class.
+            Its paint function is called from within this classes paint function.
+            </summary>
+        </member>
+        <member name="F:SVGCards.Deck.Deck_AltInfo.SpadesInfo.Jack">
+            <summary>
+            A reference to an instance of the class Jack which represents a sublayer of the layer represented by this class.
+            Its paint function is called from within this classes paint function.
+            </summary>
+        </member>
+        <member name="F:SVGCards.Deck.Deck_AltInfo.SpadesInfo.Queen">
+            <summary>
+            A reference to an instance of the class Queen which represents a sublayer of the layer represented by this class.
+            Its paint function is called from within this classes paint function.
+            </summary>
+        </member>
+        <member name="F:SVGCards.Deck.Deck_AltInfo.SpadesInfo.King">
+            <summary>
+            A reference to an instance of the class King which represents a sublayer of the layer represented by this class.
+            Its paint function is called from within this classes paint function.
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.SpadesInfo.#ctor(SVGCards.IAIGraphicObject)">
+            <summary>
+            Class constructor takes an object implementing the IAIGraphicObject interface
+            This object is assigned as the parent
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.SpadesInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Paints the layer Spades if IsVisible is true
+            </summary>
+            <param name="g">The Graphics surface to paint to</param>
+            <param name="t">Transforms the graphic objects from Adobe coordinate space to application coordinate space</param>
+            <seealso cref="M:SVGCards.Deck.Deck_AltInfo.SpadesInfo.AceInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)"/>
+            <seealso cref="M:SVGCards.Deck.Deck_AltInfo.SpadesInfo.TwoInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)"/>
+            <seealso cref="M:SVGCards.Deck.Deck_AltInfo.SpadesInfo.ThreeInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)"/>
+            <seealso cref="M:SVGCards.Deck.Deck_AltInfo.SpadesInfo.FourInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)"/>
+            <seealso cref="M:SVGCards.Deck.Deck_AltInfo.SpadesInfo.FiveInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)"/>
+            <seealso cref="M:SVGCards.Deck.Deck_AltInfo.SpadesInfo.SixInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)"/>
+            <seealso cref="M:SVGCards.Deck.Deck_AltInfo.SpadesInfo.SevenInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)"/>
+            <seealso cref="M:SVGCards.Deck.Deck_AltInfo.SpadesInfo.EightInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)"/>
+            <seealso cref="M:SVGCards.Deck.Deck_AltInfo.SpadesInfo.NineInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)"/>
+            <seealso cref="M:SVGCards.Deck.Deck_AltInfo.SpadesInfo.TenInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)"/>
+            <seealso cref="M:SVGCards.Deck.Deck_AltInfo.SpadesInfo.JackInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)"/>
+            <seealso cref="M:SVGCards.Deck.Deck_AltInfo.SpadesInfo.QueenInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)"/>
+            <seealso cref="M:SVGCards.Deck.Deck_AltInfo.SpadesInfo.KingInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)"/>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.SpadesInfo.Children">
+            <summary>
+            Gets an array containing the child classes of this layer
+            </summary>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.SpadesInfo.Name">
+            <summary>
+            Gets the name of the class
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.SpadesInfo.Transform(System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Returns the transform, transformed by matrix m, applied to the object at paint-time for the layer
+            </summary>
+        </member>
+        <member name="T:SVGCards.Deck.Deck_AltInfo.SpadesInfo.AceInfo">
+            <summary>
+            This is the class for the layer named Ace
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.SpadesInfo.AceInfo.#ctor(SVGCards.IAIGraphicObject)">
+            <summary>
+            Class constructor takes an object implementing the IAIGraphicObject interface
+            This object is assigned as the parent
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.SpadesInfo.AceInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Paints the layer Ace if IsVisible is true
+            </summary>
+            <param name="g">The Graphics surface to paint to</param>
+            <param name="t">Transforms the graphic objects from Adobe coordinate space to application coordinate space</param>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.SpadesInfo.AceInfo.Children">
+            <summary>
+            Gets an array containing the child classes of this layer
+            </summary>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.SpadesInfo.AceInfo.Name">
+            <summary>
+            Gets the name of the class
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.SpadesInfo.AceInfo.Transform(System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Returns the transform, transformed by matrix m, applied to the object at paint-time for the layer
+            </summary>
+        </member>
+        <member name="T:SVGCards.Deck.Deck_AltInfo.SpadesInfo.TwoInfo">
+            <summary>
+            This is the class for the layer named Two
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.SpadesInfo.TwoInfo.#ctor(SVGCards.IAIGraphicObject)">
+            <summary>
+            Class constructor takes an object implementing the IAIGraphicObject interface
+            This object is assigned as the parent
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.SpadesInfo.TwoInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Paints the layer Two if IsVisible is true
+            </summary>
+            <param name="g">The Graphics surface to paint to</param>
+            <param name="t">Transforms the graphic objects from Adobe coordinate space to application coordinate space</param>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.SpadesInfo.TwoInfo.Children">
+            <summary>
+            Gets an array containing the child classes of this layer
+            </summary>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.SpadesInfo.TwoInfo.Name">
+            <summary>
+            Gets the name of the class
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.SpadesInfo.TwoInfo.Transform(System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Returns the transform, transformed by matrix m, applied to the object at paint-time for the layer
+            </summary>
+        </member>
+        <member name="T:SVGCards.Deck.Deck_AltInfo.SpadesInfo.ThreeInfo">
+            <summary>
+            This is the class for the layer named Three
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.SpadesInfo.ThreeInfo.#ctor(SVGCards.IAIGraphicObject)">
+            <summary>
+            Class constructor takes an object implementing the IAIGraphicObject interface
+            This object is assigned as the parent
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.SpadesInfo.ThreeInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Paints the layer Three if IsVisible is true
+            </summary>
+            <param name="g">The Graphics surface to paint to</param>
+            <param name="t">Transforms the graphic objects from Adobe coordinate space to application coordinate space</param>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.SpadesInfo.ThreeInfo.Children">
+            <summary>
+            Gets an array containing the child classes of this layer
+            </summary>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.SpadesInfo.ThreeInfo.Name">
+            <summary>
+            Gets the name of the class
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.SpadesInfo.ThreeInfo.Transform(System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Returns the transform, transformed by matrix m, applied to the object at paint-time for the layer
+            </summary>
+        </member>
+        <member name="T:SVGCards.Deck.Deck_AltInfo.SpadesInfo.FourInfo">
+            <summary>
+            This is the class for the layer named Four
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.SpadesInfo.FourInfo.#ctor(SVGCards.IAIGraphicObject)">
+            <summary>
+            Class constructor takes an object implementing the IAIGraphicObject interface
+            This object is assigned as the parent
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.SpadesInfo.FourInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Paints the layer Four if IsVisible is true
+            </summary>
+            <param name="g">The Graphics surface to paint to</param>
+            <param name="t">Transforms the graphic objects from Adobe coordinate space to application coordinate space</param>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.SpadesInfo.FourInfo.Children">
+            <summary>
+            Gets an array containing the child classes of this layer
+            </summary>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.SpadesInfo.FourInfo.Name">
+            <summary>
+            Gets the name of the class
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.SpadesInfo.FourInfo.Transform(System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Returns the transform, transformed by matrix m, applied to the object at paint-time for the layer
+            </summary>
+        </member>
+        <member name="T:SVGCards.Deck.Deck_AltInfo.SpadesInfo.FiveInfo">
+            <summary>
+            This is the class for the layer named Five
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.SpadesInfo.FiveInfo.#ctor(SVGCards.IAIGraphicObject)">
+            <summary>
+            Class constructor takes an object implementing the IAIGraphicObject interface
+            This object is assigned as the parent
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.SpadesInfo.FiveInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Paints the layer Five if IsVisible is true
+            </summary>
+            <param name="g">The Graphics surface to paint to</param>
+            <param name="t">Transforms the graphic objects from Adobe coordinate space to application coordinate space</param>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.SpadesInfo.FiveInfo.Children">
+            <summary>
+            Gets an array containing the child classes of this layer
+            </summary>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.SpadesInfo.FiveInfo.Name">
+            <summary>
+            Gets the name of the class
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.SpadesInfo.FiveInfo.Transform(System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Returns the transform, transformed by matrix m, applied to the object at paint-time for the layer
+            </summary>
+        </member>
+        <member name="T:SVGCards.Deck.Deck_AltInfo.SpadesInfo.SixInfo">
+            <summary>
+            This is the class for the layer named Six
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.SpadesInfo.SixInfo.#ctor(SVGCards.IAIGraphicObject)">
+            <summary>
+            Class constructor takes an object implementing the IAIGraphicObject interface
+            This object is assigned as the parent
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.SpadesInfo.SixInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Paints the layer Six if IsVisible is true
+            </summary>
+            <param name="g">The Graphics surface to paint to</param>
+            <param name="t">Transforms the graphic objects from Adobe coordinate space to application coordinate space</param>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.SpadesInfo.SixInfo.Children">
+            <summary>
+            Gets an array containing the child classes of this layer
+            </summary>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.SpadesInfo.SixInfo.Name">
+            <summary>
+            Gets the name of the class
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.SpadesInfo.SixInfo.Transform(System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Returns the transform, transformed by matrix m, applied to the object at paint-time for the layer
+            </summary>
+        </member>
+        <member name="T:SVGCards.Deck.Deck_AltInfo.SpadesInfo.SevenInfo">
+            <summary>
+            This is the class for the layer named Seven
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.SpadesInfo.SevenInfo.#ctor(SVGCards.IAIGraphicObject)">
+            <summary>
+            Class constructor takes an object implementing the IAIGraphicObject interface
+            This object is assigned as the parent
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.SpadesInfo.SevenInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Paints the layer Seven if IsVisible is true
+            </summary>
+            <param name="g">The Graphics surface to paint to</param>
+            <param name="t">Transforms the graphic objects from Adobe coordinate space to application coordinate space</param>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.SpadesInfo.SevenInfo.Children">
+            <summary>
+            Gets an array containing the child classes of this layer
+            </summary>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.SpadesInfo.SevenInfo.Name">
+            <summary>
+            Gets the name of the class
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.SpadesInfo.SevenInfo.Transform(System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Returns the transform, transformed by matrix m, applied to the object at paint-time for the layer
+            </summary>
+        </member>
+        <member name="T:SVGCards.Deck.Deck_AltInfo.SpadesInfo.EightInfo">
+            <summary>
+            This is the class for the layer named Eight
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.SpadesInfo.EightInfo.#ctor(SVGCards.IAIGraphicObject)">
+            <summary>
+            Class constructor takes an object implementing the IAIGraphicObject interface
+            This object is assigned as the parent
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.SpadesInfo.EightInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Paints the layer Eight if IsVisible is true
+            </summary>
+            <param name="g">The Graphics surface to paint to</param>
+            <param name="t">Transforms the graphic objects from Adobe coordinate space to application coordinate space</param>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.SpadesInfo.EightInfo.Children">
+            <summary>
+            Gets an array containing the child classes of this layer
+            </summary>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.SpadesInfo.EightInfo.Name">
+            <summary>
+            Gets the name of the class
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.SpadesInfo.EightInfo.Transform(System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Returns the transform, transformed by matrix m, applied to the object at paint-time for the layer
+            </summary>
+        </member>
+        <member name="T:SVGCards.Deck.Deck_AltInfo.SpadesInfo.NineInfo">
+            <summary>
+            This is the class for the layer named Nine
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.SpadesInfo.NineInfo.#ctor(SVGCards.IAIGraphicObject)">
+            <summary>
+            Class constructor takes an object implementing the IAIGraphicObject interface
+            This object is assigned as the parent
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.SpadesInfo.NineInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Paints the layer Nine if IsVisible is true
+            </summary>
+            <param name="g">The Graphics surface to paint to</param>
+            <param name="t">Transforms the graphic objects from Adobe coordinate space to application coordinate space</param>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.SpadesInfo.NineInfo.Children">
+            <summary>
+            Gets an array containing the child classes of this layer
+            </summary>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.SpadesInfo.NineInfo.Name">
+            <summary>
+            Gets the name of the class
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.SpadesInfo.NineInfo.Transform(System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Returns the transform, transformed by matrix m, applied to the object at paint-time for the layer
+            </summary>
+        </member>
+        <member name="T:SVGCards.Deck.Deck_AltInfo.SpadesInfo.TenInfo">
+            <summary>
+            This is the class for the layer named Ten
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.SpadesInfo.TenInfo.#ctor(SVGCards.IAIGraphicObject)">
+            <summary>
+            Class constructor takes an object implementing the IAIGraphicObject interface
+            This object is assigned as the parent
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.SpadesInfo.TenInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Paints the layer Ten if IsVisible is true
+            </summary>
+            <param name="g">The Graphics surface to paint to</param>
+            <param name="t">Transforms the graphic objects from Adobe coordinate space to application coordinate space</param>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.SpadesInfo.TenInfo.Children">
+            <summary>
+            Gets an array containing the child classes of this layer
+            </summary>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.SpadesInfo.TenInfo.Name">
+            <summary>
+            Gets the name of the class
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.SpadesInfo.TenInfo.Transform(System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Returns the transform, transformed by matrix m, applied to the object at paint-time for the layer
+            </summary>
+        </member>
+        <member name="T:SVGCards.Deck.Deck_AltInfo.SpadesInfo.JackInfo">
+            <summary>
+            This is the class for the layer named Jack
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.SpadesInfo.JackInfo.#ctor(SVGCards.IAIGraphicObject)">
+            <summary>
+            Class constructor takes an object implementing the IAIGraphicObject interface
+            This object is assigned as the parent
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.SpadesInfo.JackInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Paints the layer Jack if IsVisible is true
+            </summary>
+            <param name="g">The Graphics surface to paint to</param>
+            <param name="t">Transforms the graphic objects from Adobe coordinate space to application coordinate space</param>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.SpadesInfo.JackInfo.Children">
+            <summary>
+            Gets an array containing the child classes of this layer
+            </summary>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.SpadesInfo.JackInfo.Name">
+            <summary>
+            Gets the name of the class
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.SpadesInfo.JackInfo.Transform(System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Returns the transform, transformed by matrix m, applied to the object at paint-time for the layer
+            </summary>
+        </member>
+        <member name="T:SVGCards.Deck.Deck_AltInfo.SpadesInfo.QueenInfo">
+            <summary>
+            This is the class for the layer named Queen
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.SpadesInfo.QueenInfo.#ctor(SVGCards.IAIGraphicObject)">
+            <summary>
+            Class constructor takes an object implementing the IAIGraphicObject interface
+            This object is assigned as the parent
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.SpadesInfo.QueenInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Paints the layer Queen if IsVisible is true
+            </summary>
+            <param name="g">The Graphics surface to paint to</param>
+            <param name="t">Transforms the graphic objects from Adobe coordinate space to application coordinate space</param>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.SpadesInfo.QueenInfo.Children">
+            <summary>
+            Gets an array containing the child classes of this layer
+            </summary>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.SpadesInfo.QueenInfo.Name">
+            <summary>
+            Gets the name of the class
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.SpadesInfo.QueenInfo.Transform(System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Returns the transform, transformed by matrix m, applied to the object at paint-time for the layer
+            </summary>
+        </member>
+        <member name="T:SVGCards.Deck.Deck_AltInfo.SpadesInfo.KingInfo">
+            <summary>
+            This is the class for the layer named King
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.SpadesInfo.KingInfo.#ctor(SVGCards.IAIGraphicObject)">
+            <summary>
+            Class constructor takes an object implementing the IAIGraphicObject interface
+            This object is assigned as the parent
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.SpadesInfo.KingInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Paints the layer King if IsVisible is true
+            </summary>
+            <param name="g">The Graphics surface to paint to</param>
+            <param name="t">Transforms the graphic objects from Adobe coordinate space to application coordinate space</param>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.SpadesInfo.KingInfo.Children">
+            <summary>
+            Gets an array containing the child classes of this layer
+            </summary>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.SpadesInfo.KingInfo.Name">
+            <summary>
+            Gets the name of the class
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.SpadesInfo.KingInfo.Transform(System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Returns the transform, transformed by matrix m, applied to the object at paint-time for the layer
+            </summary>
+        </member>
+        <member name="T:SVGCards.Deck.Deck_AltInfo.BacksInfo">
+            <summary>
+            This is the class for the layer named Backs
+            </summary>
+        </member>
+        <member name="F:SVGCards.Deck.Deck_AltInfo.BacksInfo.RedFlower">
+            <summary>
+            A reference to an instance of the class RedFlower which represents a sublayer of the layer represented by this class.
+            Its paint function is called from within this classes paint function.
+            </summary>
+        </member>
+        <member name="F:SVGCards.Deck.Deck_AltInfo.BacksInfo.RedStripe">
+            <summary>
+            A reference to an instance of the class RedStripe which represents a sublayer of the layer represented by this class.
+            Its paint function is called from within this classes paint function.
+            </summary>
+        </member>
+        <member name="F:SVGCards.Deck.Deck_AltInfo.BacksInfo.BlueStripe">
+            <summary>
+            A reference to an instance of the class BlueStripe which represents a sublayer of the layer represented by this class.
+            Its paint function is called from within this classes paint function.
+            </summary>
+        </member>
+        <member name="F:SVGCards.Deck.Deck_AltInfo.BacksInfo.BlueHelix">
+            <summary>
+            A reference to an instance of the class BlueHelix which represents a sublayer of the layer represented by this class.
+            Its paint function is called from within this classes paint function.
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.BacksInfo.#ctor(SVGCards.IAIGraphicObject)">
+            <summary>
+            Class constructor takes an object implementing the IAIGraphicObject interface
+            This object is assigned as the parent
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.BacksInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Paints the layer Backs if IsVisible is true
+            </summary>
+            <param name="g">The Graphics surface to paint to</param>
+            <param name="t">Transforms the graphic objects from Adobe coordinate space to application coordinate space</param>
+            <seealso cref="M:SVGCards.Deck.Deck_AltInfo.BacksInfo.RedFlowerInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)"/>
+            <seealso cref="M:SVGCards.Deck.Deck_AltInfo.BacksInfo.RedStripeInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)"/>
+            <seealso cref="M:SVGCards.Deck.Deck_AltInfo.BacksInfo.BlueStripeInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)"/>
+            <seealso cref="M:SVGCards.Deck.Deck_AltInfo.BacksInfo.BlueHelixInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)"/>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.BacksInfo.Children">
+            <summary>
+            Gets an array containing the child classes of this layer
+            </summary>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.BacksInfo.Name">
+            <summary>
+            Gets the name of the class
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.BacksInfo.Transform(System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Returns the transform, transformed by matrix m, applied to the object at paint-time for the layer
+            </summary>
+        </member>
+        <member name="T:SVGCards.Deck.Deck_AltInfo.BacksInfo.RedFlowerInfo">
+            <summary>
+            This is the class for the layer named RedFlower
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.BacksInfo.RedFlowerInfo.#ctor(SVGCards.IAIGraphicObject)">
+            <summary>
+            Class constructor takes an object implementing the IAIGraphicObject interface
+            This object is assigned as the parent
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.BacksInfo.RedFlowerInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Paints the layer RedFlower if IsVisible is true
+            </summary>
+            <param name="g">The Graphics surface to paint to</param>
+            <param name="t">Transforms the graphic objects from Adobe coordinate space to application coordinate space</param>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.BacksInfo.RedFlowerInfo.Children">
+            <summary>
+            Gets an array containing the child classes of this layer
+            </summary>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.BacksInfo.RedFlowerInfo.Name">
+            <summary>
+            Gets the name of the class
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.BacksInfo.RedFlowerInfo.Transform(System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Returns the transform, transformed by matrix m, applied to the object at paint-time for the layer
+            </summary>
+        </member>
+        <member name="T:SVGCards.Deck.Deck_AltInfo.BacksInfo.RedStripeInfo">
+            <summary>
+            This is the class for the layer named RedStripe
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.BacksInfo.RedStripeInfo.#ctor(SVGCards.IAIGraphicObject)">
+            <summary>
+            Class constructor takes an object implementing the IAIGraphicObject interface
+            This object is assigned as the parent
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.BacksInfo.RedStripeInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Paints the layer RedStripe if IsVisible is true
+            </summary>
+            <param name="g">The Graphics surface to paint to</param>
+            <param name="t">Transforms the graphic objects from Adobe coordinate space to application coordinate space</param>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.BacksInfo.RedStripeInfo.Children">
+            <summary>
+            Gets an array containing the child classes of this layer
+            </summary>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.BacksInfo.RedStripeInfo.Name">
+            <summary>
+            Gets the name of the class
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.BacksInfo.RedStripeInfo.Transform(System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Returns the transform, transformed by matrix m, applied to the object at paint-time for the layer
+            </summary>
+        </member>
+        <member name="T:SVGCards.Deck.Deck_AltInfo.BacksInfo.BlueStripeInfo">
+            <summary>
+            This is the class for the layer named BlueStripe
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.BacksInfo.BlueStripeInfo.#ctor(SVGCards.IAIGraphicObject)">
+            <summary>
+            Class constructor takes an object implementing the IAIGraphicObject interface
+            This object is assigned as the parent
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.BacksInfo.BlueStripeInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Paints the layer BlueStripe if IsVisible is true
+            </summary>
+            <param name="g">The Graphics surface to paint to</param>
+            <param name="t">Transforms the graphic objects from Adobe coordinate space to application coordinate space</param>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.BacksInfo.BlueStripeInfo.Children">
+            <summary>
+            Gets an array containing the child classes of this layer
+            </summary>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.BacksInfo.BlueStripeInfo.Name">
+            <summary>
+            Gets the name of the class
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.BacksInfo.BlueStripeInfo.Transform(System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Returns the transform, transformed by matrix m, applied to the object at paint-time for the layer
+            </summary>
+        </member>
+        <member name="T:SVGCards.Deck.Deck_AltInfo.BacksInfo.BlueHelixInfo">
+            <summary>
+            This is the class for the layer named BlueHelix
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.BacksInfo.BlueHelixInfo.#ctor(SVGCards.IAIGraphicObject)">
+            <summary>
+            Class constructor takes an object implementing the IAIGraphicObject interface
+            This object is assigned as the parent
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.BacksInfo.BlueHelixInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Paints the layer BlueHelix if IsVisible is true
+            </summary>
+            <param name="g">The Graphics surface to paint to</param>
+            <param name="t">Transforms the graphic objects from Adobe coordinate space to application coordinate space</param>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.BacksInfo.BlueHelixInfo.Children">
+            <summary>
+            Gets an array containing the child classes of this layer
+            </summary>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.BacksInfo.BlueHelixInfo.Name">
+            <summary>
+            Gets the name of the class
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.BacksInfo.BlueHelixInfo.Transform(System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Returns the transform, transformed by matrix m, applied to the object at paint-time for the layer
+            </summary>
+        </member>
+        <member name="T:SVGCards.Deck.Deck_AltInfo.JokerInfo">
+            <summary>
+            This is the class for the layer named Joker
+            </summary>
+        </member>
+        <member name="F:SVGCards.Deck.Deck_AltInfo.JokerInfo.Black">
+            <summary>
+            A reference to an instance of the class Black which represents a sublayer of the layer represented by this class.
+            Its paint function is called from within this classes paint function.
+            </summary>
+        </member>
+        <member name="F:SVGCards.Deck.Deck_AltInfo.JokerInfo.Red">
+            <summary>
+            A reference to an instance of the class Red which represents a sublayer of the layer represented by this class.
+            Its paint function is called from within this classes paint function.
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.JokerInfo.#ctor(SVGCards.IAIGraphicObject)">
+            <summary>
+            Class constructor takes an object implementing the IAIGraphicObject interface
+            This object is assigned as the parent
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.JokerInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Paints the layer Joker if IsVisible is true
+            </summary>
+            <param name="g">The Graphics surface to paint to</param>
+            <param name="t">Transforms the graphic objects from Adobe coordinate space to application coordinate space</param>
+            <seealso cref="M:SVGCards.Deck.Deck_AltInfo.JokerInfo.BlackInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)"/>
+            <seealso cref="M:SVGCards.Deck.Deck_AltInfo.JokerInfo.RedInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)"/>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.JokerInfo.Children">
+            <summary>
+            Gets an array containing the child classes of this layer
+            </summary>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.JokerInfo.Name">
+            <summary>
+            Gets the name of the class
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.JokerInfo.Transform(System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Returns the transform, transformed by matrix m, applied to the object at paint-time for the layer
+            </summary>
+        </member>
+        <member name="T:SVGCards.Deck.Deck_AltInfo.JokerInfo.BlackInfo">
+            <summary>
+            This is the class for the layer named Black
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.JokerInfo.BlackInfo.#ctor(SVGCards.IAIGraphicObject)">
+            <summary>
+            Class constructor takes an object implementing the IAIGraphicObject interface
+            This object is assigned as the parent
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.JokerInfo.BlackInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Paints the layer Black if IsVisible is true
+            </summary>
+            <param name="g">The Graphics surface to paint to</param>
+            <param name="t">Transforms the graphic objects from Adobe coordinate space to application coordinate space</param>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.JokerInfo.BlackInfo.Children">
+            <summary>
+            Gets an array containing the child classes of this layer
+            </summary>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.JokerInfo.BlackInfo.Name">
+            <summary>
+            Gets the name of the class
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.JokerInfo.BlackInfo.Transform(System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Returns the transform, transformed by matrix m, applied to the object at paint-time for the layer
+            </summary>
+        </member>
+        <member name="T:SVGCards.Deck.Deck_AltInfo.JokerInfo.RedInfo">
+            <summary>
+            This is the class for the layer named Red
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.JokerInfo.RedInfo.#ctor(SVGCards.IAIGraphicObject)">
+            <summary>
+            Class constructor takes an object implementing the IAIGraphicObject interface
+            This object is assigned as the parent
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.JokerInfo.RedInfo.Paint(System.Drawing.Graphics,System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Paints the layer Red if IsVisible is true
+            </summary>
+            <param name="g">The Graphics surface to paint to</param>
+            <param name="t">Transforms the graphic objects from Adobe coordinate space to application coordinate space</param>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.JokerInfo.RedInfo.Children">
+            <summary>
+            Gets an array containing the child classes of this layer
+            </summary>
+        </member>
+        <member name="P:SVGCards.Deck.Deck_AltInfo.JokerInfo.RedInfo.Name">
+            <summary>
+            Gets the name of the class
+            </summary>
+        </member>
+        <member name="M:SVGCards.Deck.Deck_AltInfo.JokerInfo.RedInfo.Transform(System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Returns the transform, transformed by matrix m, applied to the object at paint-time for the layer
+            </summary>
+        </member>
+        <member name="T:CardVectorImage.CardVector">
+            <summary>
+            Card Vector Control.
+            </summary>
+        </member>
+        <member name="F:CardVectorImage.CardVector.image">
+            <exclude/>
+        </member>
+        <member name="M:CardVectorImage.CardVector.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="F:CardVectorImage.CardVector.card">
+            <exclude/>
+        </member>
+        <member name="P:CardVectorImage.CardVector.Card">
+            <summary>
+            Used to set or get the current card displayed
+            </summary>
+        </member>
+        <member name="M:CardVectorImage.CardVector.CardVector_Load(System.Object,System.EventArgs)">
+            <summary>
+            Load the control
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:CardVectorImage.CardVector.CardVector_Paint(System.Object,System.Windows.Forms.PaintEventArgs)">
+            <summary>
+            Paint the card into the control
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="T:CardVectorImage.CardVector.CardType">
+            <summary>
+            The enumeration value used to set which card (or card back)
+            is to be painted.
+            </summary>
+        </member>
+        <member name="F:CardVectorImage.CardVector.CardType.TwoOfHearts">
+            <exclude/>
+        </member>
+        <member name="F:CardVectorImage.CardVector.CardType.ThreeOfHearts">
+            <exclude/>
+        </member>
+        <member name="F:CardVectorImage.CardVector.CardType.FourOfHearts">
+            <exclude/>
+        </member>
+        <member name="F:CardVectorImage.CardVector.CardType.FiveOfHearts">
+            <exclude/>
+        </member>
+        <member name="F:CardVectorImage.CardVector.CardType.SixOfHearts">
+            <exclude/>
+        </member>
+        <member name="F:CardVectorImage.CardVector.CardType.SevenOfHearts">
+            <exclude/>
+        </member>
+        <member name="F:CardVectorImage.CardVector.CardType.EigthOfHearts">
+            <exclude/>
+        </member>
+        <member name="F:CardVectorImage.CardVector.CardType.NineOfHearts">
+            <exclude/>
+        </member>
+        <member name="F:CardVectorImage.CardVector.CardType.TenOfHearts">
+            <exclude/>
+        </member>
+        <member name="F:CardVectorImage.CardVector.CardType.JackOfHearts">
+            <exclude/>
+        </member>
+        <member name="F:CardVectorImage.CardVector.CardType.QueenOfHearts">
+            <exclude/>
+        </member>
+        <member name="F:CardVectorImage.CardVector.CardType.KingOfHearts">
+            <exclude/>
+        </member>
+        <member name="F:CardVectorImage.CardVector.CardType.AceOfHearts">
+            <exclude/>
+        </member>
+        <member name="F:CardVectorImage.CardVector.CardType.TwoOfDiamonds">
+            <exclude/>
+        </member>
+        <member name="F:CardVectorImage.CardVector.CardType.ThreeOfDiamonds">
+            <exclude/>
+        </member>
+        <member name="F:CardVectorImage.CardVector.CardType.FourOfDiamonds">
+            <exclude/>
+        </member>
+        <member name="F:CardVectorImage.CardVector.CardType.FiveOfDiamonds">
+            <exclude/>
+        </member>
+        <member name="F:CardVectorImage.CardVector.CardType.SixOfDiamonds">
+            <exclude/>
+        </member>
+        <member name="F:CardVectorImage.CardVector.CardType.SevenOfDiamonds">
+            <exclude/>
+        </member>
+        <member name="F:CardVectorImage.CardVector.CardType.EightOfDiamonds">
+            <exclude/>
+        </member>
+        <member name="F:CardVectorImage.CardVector.CardType.NineOfDiamonds">
+            <exclude/>
+        </member>
+        <member name="F:CardVectorImage.CardVector.CardType.TenOfDiamonds">
+            <exclude/>
+        </member>
+        <member name="F:CardVectorImage.CardVector.CardType.JackOfDiamonds">
+            <exclude/>
+        </member>
+        <member name="F:CardVectorImage.CardVector.CardType.QueenOfDiamonds">
+            <exclude/>
+        </member>
+        <member name="F:CardVectorImage.CardVector.CardType.KingOfDiamonds">
+            <exclude/>
+        </member>
+        <member name="F:CardVectorImage.CardVector.CardType.AceOfDiamonds">
+            <exclude/>
+        </member>
+        <member name="F:CardVectorImage.CardVector.CardType.TwoOfClubs">
+            <exclude/>
+        </member>
+        <member name="F:CardVectorImage.CardVector.CardType.ThreeOfClubs">
+            <exclude/>
+        </member>
+        <member name="F:CardVectorImage.CardVector.CardType.FourOfClubs">
+            <exclude/>
+        </member>
+        <member name="F:CardVectorImage.CardVector.CardType.FiveOfClubs">
+            <exclude/>
+        </member>
+        <member name="F:CardVectorImage.CardVector.CardType.SixOfClubs">
+            <exclude/>
+        </member>
+        <member name="F:CardVectorImage.CardVector.CardType.SevenOfClubs">
+            <exclude/>
+        </member>
+        <member name="F:CardVectorImage.CardVector.CardType.EightOfClubs">
+            <exclude/>
+        </member>
+        <member name="F:CardVectorImage.CardVector.CardType.NineOfClubs">
+            <exclude/>
+        </member>
+        <member name="F:CardVectorImage.CardVector.CardType.TenOfClubs">
+            <exclude/>
+        </member>
+        <member name="F:CardVectorImage.CardVector.CardType.JackOfClubs">
+            <exclude/>
+        </member>
+        <member name="F:CardVectorImage.CardVector.CardType.QueenOfClubs">
+            <exclude/>
+        </member>
+        <member name="F:CardVectorImage.CardVector.CardType.KingOfClubs">
+            <exclude/>
+        </member>
+        <member name="F:CardVectorImage.CardVector.CardType.AceOfClubs">
+            <exclude/>
+        </member>
+        <member name="F:CardVectorImage.CardVector.CardType.TwoOfSpades">
+            <exclude/>
+        </member>
+        <member name="F:CardVectorImage.CardVector.CardType.ThreeOfSpades">
+            <exclude/>
+        </member>
+        <member name="F:CardVectorImage.CardVector.CardType.FourOfSpades">
+            <exclude/>
+        </member>
+        <member name="F:CardVectorImage.CardVector.CardType.FiveOfSpades">
+            <exclude/>
+        </member>
+        <member name="F:CardVectorImage.CardVector.CardType.SixOfSpades">
+            <exclude/>
+        </member>
+        <member name="F:CardVectorImage.CardVector.CardType.SevenOfSpades">
+            <exclude/>
+        </member>
+        <member name="F:CardVectorImage.CardVector.CardType.EightOfSpades">
+            <exclude/>
+        </member>
+        <member name="F:CardVectorImage.CardVector.CardType.NineOfSpades">
+            <exclude/>
+        </member>
+        <member name="F:CardVectorImage.CardVector.CardType.TenOfSpades">
+            <exclude/>
+        </member>
+        <member name="F:CardVectorImage.CardVector.CardType.JackOfSpades">
+            <exclude/>
+        </member>
+        <member name="F:CardVectorImage.CardVector.CardType.QueenOfSpades">
+            <exclude/>
+        </member>
+        <member name="F:CardVectorImage.CardVector.CardType.KingOfSpades">
+            <exclude/>
+        </member>
+        <member name="F:CardVectorImage.CardVector.CardType.AceOfSpades">
+            <exclude/>
+        </member>
+        <member name="F:CardVectorImage.CardVector.CardType.JokerRed">
+            <exclude/>
+        </member>
+        <member name="F:CardVectorImage.CardVector.CardType.JokerBlack">
+            <exclude/>
+        </member>
+        <member name="F:CardVectorImage.CardVector.CardType.BackBlueHelix">
+            <exclude/>
+        </member>
+        <member name="F:CardVectorImage.CardVector.CardType.BackBlueStrip">
+            <exclude/>
+        </member>
+        <member name="F:CardVectorImage.CardVector.CardType.BackRedStrip">
+            <exclude/>
+        </member>
+        <member name="F:CardVectorImage.CardVector.CardType.BackRedFlower">
+            <exclude/>
+        </member>
+        <member name="M:CardVectorImage.CardVector.SetCardVisiblity(CardVectorImage.CardVector.CardType,System.Boolean)">
+            <exclude/>
+        </member>
+        <member name="T:CardVectorImage.CardVector.CardClickHandler">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="E:CardVectorImage.CardVector.CardClick">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CardVectorImage.CardVector.CardVector_MouseClick(System.Object,System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:CardVectorImage.CardVector.CardVector_MouseDoubleClick(System.Object,System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:CardVectorImage.CardVector.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:CardVectorImage.CardVector.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:CardVectorImage.CardVector.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+    </members>
+</doc>

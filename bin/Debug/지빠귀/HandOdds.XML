@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HandOdds</name>
+    </assembly>
+    <members>
+        <member name="T:HandOdds.Form1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:HandOdds.Form1.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HandOdds.Form1.PlayerText">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:HandOdds.Form1.SetPlayerValue(System.Int32,System.Double)">
+            <summary>
+            
+            </summary>
+            <param name="index"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:HandOdds.Form1.Calculate_Click(System.Object,System.EventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:HandOdds.Form1.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:HandOdds.Form1.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:HandOdds.Form1.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:HandOdds.HiPerfTimer">
+            <summary>
+            This class is used to make high resolution timing measurements
+            </summary>
+        </member>
+        <member name="F:HandOdds.HiPerfTimer.startTime">
+            <exclude/>
+        </member>
+        <member name="F:HandOdds.HiPerfTimer.freq">
+            <exclude/>
+        </member>
+        <member name="M:HandOdds.HiPerfTimer.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="P:HandOdds.HiPerfTimer.CurrentTime">
+            <summary>
+            Returns current time value as a double. This value is only
+            useful for makeing relative time measurements. The relationship of
+            this value to system time is unknown.
+            </summary>
+        </member>
+        <member name="M:HandOdds.HiPerfTimer.Start">
+            <summary>
+            Used to mark the start of a time duration measurement
+            </summary>
+        </member>
+        <member name="P:HandOdds.HiPerfTimer.Duration">
+            <summary>
+            Retreives time since the last time Start() was called.
+            </summary>
+        </member>
+        <member name="M:HandOdds.Program.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+        <member name="T:HandOdds.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:HandOdds.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:HandOdds.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+    </members>
+</doc>

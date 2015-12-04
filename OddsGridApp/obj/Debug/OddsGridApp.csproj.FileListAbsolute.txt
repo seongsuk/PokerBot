@@ -1,0 +1,16 @@
+C:\Users\seongsu\Desktop\PokerHandEvalSrc\PokerHandEvalSrc\bin\Debug\OddsGridApp.XML
+C:\Users\seongsu\Desktop\PokerHandEvalSrc\PokerHandEvalSrc\bin\Debug\OddsGridApp.exe
+C:\Users\seongsu\Desktop\PokerHandEvalSrc\PokerHandEvalSrc\bin\Debug\OddsGridApp.pdb
+C:\Users\seongsu\Desktop\PokerHandEvalSrc\PokerHandEvalSrc\OddsGridApp\obj\Debug\OddsGridApp.csprojResolveAssemblyReference.cache
+C:\Users\seongsu\Desktop\PokerHandEvalSrc\PokerHandEvalSrc\OddsGridApp\obj\Debug\OddsGridApp.Form1.resources
+C:\Users\seongsu\Desktop\PokerHandEvalSrc\PokerHandEvalSrc\OddsGridApp\obj\Debug\OddsGridApp.Properties.Resources.resources
+C:\Users\seongsu\Desktop\PokerHandEvalSrc\PokerHandEvalSrc\OddsGridApp\obj\Debug\OddsGridApp.csproj.GenerateResource.Cache
+C:\Users\seongsu\Desktop\PokerHandEvalSrc\PokerHandEvalSrc\OddsGridApp\obj\Debug\OddsGridApp.exe
+C:\Users\seongsu\Desktop\PokerHandEvalSrc\PokerHandEvalSrc\OddsGridApp\obj\Debug\OddsGridApp.pdb
+C:\Users\seongsu\Desktop\PokerHandEvalSrc\PokerHandEvalSrc\OddsGridApp\obj\Debug\OddsGridApp.csproj.ResolveComReference.cache
+C:\Users\seongsu\Desktop\PokerHandEvalSrc\PokerHandEvalSrc\OddsGridApp\obj\Debug\Interop.WIA.dll
+C:\Users\seongsu\Documents\GitHub\PokerBot\PokerBot\bin\Debug\OddsGridApp.XML
+C:\Users\seongsu\Documents\GitHub\PokerBot\PokerBot\OddsGridApp\obj\Debug\Interop.WIA.dll
+C:\Users\seongsu\Documents\GitHub\PokerBot\PokerBot\OddsGridApp\obj\Debug\OddsGridApp.csproj.ResolveComReference.cache
+C:\Users\seongsu\Documents\GitHub\PokerBot\PokerBot\OddsGridApp\obj\Debug\OddsGridApp.exe
+C:\Users\seongsu\Documents\GitHub\PokerBot\PokerBot\OddsGridApp\obj\Debug\OddsGridApp.pdb
